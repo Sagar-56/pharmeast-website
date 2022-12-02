@@ -1,0 +1,825 @@
+.offersdiv {
+  width: 98%;
+  height: 200px;
+  margin-left: 1%;
+  margin-top: 55px;
+  /* background: #10847e; */
+}
+.offercontent {
+  width: auto;
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offimg {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offcont {
+  /* float: right; */
+  margin-right: 5px;
+}
+.offimg .off___img > img {
+  width: 35px !important;
+  height: 35px !important;
+  margin: 8px 0px;
+  position: relative;
+  /* float: left; */
+  margin-top: 10px;
+}
+.offimg .offyou {
+  font-weight: 600;
+  font-size: 19px;
+  color: var(--sixteen-color);
+  position: relative;
+  float: left;
+  margin-left: 9px;
+}
+.offall {
+  float: left;
+  font-size: 19px;
+  color: var(--fifteen-color);
+  letter-spacing: 0.8px;
+  margin-top: -1px;
+  margin-right: 20px;
+}
+.offcont .offall a {
+  text-decoration: none;
+  color: #10847e;
+  font-size: 18px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.offarrow {
+  float: left;
+  color: #223837;
+  margin-top: -1px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.leftarrow .arrow___back {
+  font-weight: bold;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  background: #10847e;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+}
+.rightarrow .arrow___forward {
+  font-weight: bold;
+  /* font-size: 10px !important; */
+  width: 30px;
+  height: 30px;
+  background: #10847e;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+}
+
+.leftarrow .arrow___back:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 0px 2px 1px rgb(222, 218, 218);
+}
+.rightarrow .arrow___forward:hover {
+  background: #fff;
+  box-shadow: 0px 0px 2px 1px rgb(222, 218, 218);
+  color: #000;
+}
+.offerboxdiv .offb {
+  min-width: 24% !important;
+  height: 115px !important;
+  border: 2px solid #d2dae0;
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  border-radius: 6px;
+  transition: 0.9s !important;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.offerboxdiv {
+  min-width: 98%;
+  height: 140px;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+.offerboxdiv .offb2 {
+  margin-left: 1.5%;
+}
+.offb .offbimg > img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  position: relative;
+  /* margin: 25px 25px; */
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.offb .offbcont .offcontflat h3 {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--seventeen-color);
+  font-size: 16px;
+  height: 37px;
+  width: 200px;
+  margin-top: 27px;
+  margin-right: 20px;
+  margin-left: -5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  position: relative;
+}
+.offb .offbcont .code {
+  font-size: 15px;
+  font-family: "Gill Sans", sans-serif;
+  color: var(--eighteen-color);
+  font-variant: small-caps;
+}
+.offb .offbcont .code2 {
+  font-weight: bolder !important;
+  font-family: "Gill Sans", sans-serif;
+  color: #2e4443;
+  font-size: 14px;
+}
+.offb .offbcont .codediv {
+  margin-top: -8px;
+  position: relative;
+  /* margin-left: 119px; */
+}
+.offb .offbcont .codediv2 {
+  margin-top: -29.9px;
+}
+.offb .offbcont3 .offcontflat3 h3 {
+  color: var(--seventeen-color);
+  font-size: 16px;
+  height: 50px;
+  margin-top: 30px;
+  margin-right: 20px;
+  height: 42px;
+  line-height: 1.2;
+  display: flexbox;
+  overflow-y: hidden;
+  width: auto;
+}
+.offb .offbcont3 .codediv3 {
+  margin-top: -12.6px;
+}
+.offb .offbcont3 .code3 {
+  font-weight: bolder !important;
+  font-family: "Gill Sans", sans-serif;
+  color: #2e4443;
+}
+.offb .offbcont3 .code31 {
+  text-decoration: none;
+  color: var(--eighteen-color);
+}
+@media only screen and (min-width: 950px) and (max-width: 1122px) {
+  .offerboxdiv .offb {
+    min-width: 30% !important;
+  }
+  .offb .offbcont .offcontflat h3 {
+    font-weight: 500;
+    color: var(--seventeen-color);
+    font-size: 13px !important;
+    height: 37px;
+    width: 160px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+    position: relative;
+  }
+  .offb .offbcont .code {
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+  .offb .offbcont .code2 {
+    font-weight: bolder !important;
+    font-family: "Gill Sans", sans-serif;
+    color: #2e4443;
+    font-size: 13px;
+  }
+  .offb .offbcont .codediv {
+    margin-top: -8px;
+    position: relative;
+    /* margin-left: 119px; */
+  }
+  .offb .offbcont .codediv2 {
+    margin-top: -29.9px;
+  }
+}
+
+
+
+@media only screen and (max-width: 1270px) and (min-width: 1122px) {
+  .offerboxdiv .offb {
+    min-width: 25% !important;
+  }
+  .offb .offbcont .offcontflat h3 {
+    font-weight: 500;
+    color: var(--seventeen-color);
+    font-size: 13px !important;
+    height: 37px;
+    width: 160px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+    position: relative;
+  }
+  .offb .offbcont .code {
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+  .offb .offbcont .code2 {
+    font-weight: bolder !important;
+    font-family: "Gill Sans", sans-serif;
+    color: #2e4443;
+    font-size: 13px;
+  }
+  .offb .offbcont .codediv {
+    margin-top: -8px;
+    position: relative;
+    /* margin-left: 119px; */
+  }
+  .offb .offbcont .codediv2 {
+    margin-top: -29.9px;
+  }
+}
+
+
+
+@media only screen and (min-width: 848px) and (max-width: 951px) {
+  .offersdiv {
+    width: 98%;
+    height: 200px;
+    margin-left: 1%;
+    margin-top: 55px;
+    /* background: #10847e; */
+  }
+  .offercontent {
+    width: auto;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offimg {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .offcont {
+    /* float: right; */
+    margin-right: 5px;
+  }
+  .offimg .off___img > img {
+    width: 35px !important;
+    height: 35px !important;
+    margin: 8px 0px;
+    position: relative;
+    /* float: left; */
+    margin-top: 10px;
+  }
+  .offimg .offyou {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--sixteen-color);
+    position: relative;
+    float: left;
+    margin-left: 9px;
+  }
+  .offall {
+    float: left;
+    font-size: 19px;
+    color: var(--fifteen-color);
+    letter-spacing: 0.8px;
+    margin-top: -1px;
+    margin-right: 20px;
+  }
+  .offcont .offall a {
+    text-decoration: none;
+    color: #10847e;
+    font-size: 18px;
+    font-weight: 550;
+    cursor: pointer;
+  }
+  .offarrow {
+    float: left;
+    color: #223837;
+    margin-top: -1px;
+    margin-right: 4px;
+    cursor: pointer;
+  }
+  .leftarrow .arrow___back {
+    font-weight: bold;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    background: #10847e;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+  }
+  .rightarrow .arrow___forward {
+    font-weight: bold;
+    /* font-size: 10px !important; */
+    width: 30px;
+    height: 30px;
+    background: #10847e;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+  }
+  
+  .offerboxdiv .offb {
+    min-width: 28% !important;
+    height: 115px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    font-weight: 500;
+    color: var(--seventeen-color);
+    font-size: 14px;
+    height: 37px;
+    width: 160px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+    position: relative;
+  }
+  .offb .offbcont .code {
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+  .offb .offbcont .code2 {
+    font-weight: bolder !important;
+    font-family: "Gill Sans", sans-serif;
+    color: #2e4443;
+    font-size: 13px;
+  }
+  .offb .offbcont .codediv {
+    margin-top: -8px;
+    position: relative;
+    /* margin-left: 119px; */
+  }
+  .offb .offbcont .codediv2 {
+    margin-top: -29.9px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 860px) and (max-width: 931px) {
+  
+  .offerboxdiv .offb {
+    min-width: 28% !important;
+    height: 115px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    width: 130px;
+  }
+  .offb .offbcont .code2 {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 759px) and (max-width: 861px) {
+
+
+  .offerboxdiv .offb {
+    min-width: 28% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    width: 100px;
+    font-size: 11px;
+    height: 28.2px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+
+  }
+  .offb .offbcont .code2 {
+    font-size: 8px;
+  }
+  .offb .offbcont .code {
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 861px) {
+
+
+  .offerboxdiv .offb {
+    min-width: 28% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    width: 100px;
+    font-size: 11px;
+    height: 28.2px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+
+  }
+  .offb .offbcont .code2 {
+    font-size: 8px;
+  }
+  .offb .offbcont .code {
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+}
+
+
+@media only screen and (max-width: 740px) and (min-width: 700px) {
+
+
+  .offerboxdiv .offb {
+    min-width: 28% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    width: 100px;
+    font-size: 11px;
+    height: 28.2px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+
+  }
+  .offb .offbcont .code2 {
+    font-size: 8px;
+  }
+  .offb .offbcont .code {
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+}
+
+@media only screen and (max-width: 698px) and (min-width: 601px) {
+
+
+  .offerboxdiv .offb {
+    min-width: 28% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    width: 100px;
+    font-size: 11px;
+    height: 28.2px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+
+  }
+  .offb .offbcont .code2 {
+    font-size: 8px;
+  }
+  .offb .offbcont .code {
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 500px) {
+
+
+  .offerboxdiv .offb {
+    min-width: 30% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .offerboxdiv {
+    min-width: 98%;
+    height: 140px;
+    margin: 0;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offb .offbimg > img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .offb .offbcont .offcontflat h3 {
+    width: 100px;
+    font-size: 11px;
+    height: 28.2px;
+    margin-top: 27px;
+    margin-right: 2px;
+    margin-left: 5px;
+
+  }
+  .offb .offbcont .code2 {
+    font-size: 8px;
+  }
+  .offb .offbcont .code {
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+    color: var(--eighteen-color);
+    font-variant: small-caps;
+  }
+}
+
+
+
+@media only screen and (max-width: 760px) and (min-width: 652px) {
+
+
+  .offerboxdiv .offb {
+    min-width: 30% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 653px) and (min-width: 590px) {
+  .offerboxdiv .offb {
+    min-width: 39% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offimg .offyou {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--sixteen-color);
+    position: relative;
+    float: left;
+    margin-left: 9px;
+  }
+  .offall{
+    float: left;
+    font-size: 13px !important;
+    color: var(--fifteen-color);
+    letter-spacing: 0.8px;
+    margin-top: -1px;
+    margin-right: 20px;
+  }
+  .offcont .offall a {
+    text-decoration: none;
+    color: #10847e;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+  }
+  
+}
+@media only screen and (max-width: 591px) and (min-width: 500px) {
+  .offerboxdiv .offb {
+    min-width: 49% !important;
+    height: 95px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offimg .offyou {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--sixteen-color);
+    position: relative;
+    float: left;
+    margin-left: 9px;
+  }
+  .offall{
+    float: left;
+    font-size: 13px !important;
+    color: var(--fifteen-color);
+    letter-spacing: 0.8px;
+    margin-top: -1px;
+    margin-right: 20px;
+  }
+  .offcont .offall a {
+    text-decoration: none;
+    color: #10847e;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+  }
+  
+}
+
+
+@media only screen and (max-width: 501px) and (min-width: 360px) {
+  .offerboxdiv .offb {
+    min-width: 40% !important;
+    height: 110px !important;
+    margin-left: 0px;
+    border-radius: 6px;
+  }
+  .offerboxdiv .offb2 {
+    margin-left: 1.5%;
+  }
+  .offimg .offyou {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--sixteen-color);
+    position: relative;
+    float: left;
+    margin-left: 9px;
+  }
+  .offall{
+    float: left;
+    font-size: 13px !important;
+    color: var(--fifteen-color);
+    letter-spacing: 0.8px;
+    margin-top: -1px;
+    margin-right: 20px;
+  }
+  .offcont .offall a {
+    text-decoration: none;
+    color: #10847e;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+  }
+}

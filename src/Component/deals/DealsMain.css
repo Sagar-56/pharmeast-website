@@ -1,0 +1,113 @@
+.dealsPage2{
+    width: 100%;
+    min-height: 1200px;
+    /* background-color: #ff000f; */
+    margin-top: 140px;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+}
+.dealsDetails{
+    width: 96%;
+    height: auto;
+    /* background-color: #0000FF; */
+    margin-left: 2%;
+    position: relative;
+    
+}
+.Dealshead{
+    width: 530px;
+    height: 250px;
+    /* box-shadow:inset 0px 0px 4px 0px rgb(232, 204, 204), */
+                 /* inset -0px -0px 7px 5px rgb(237, 223, 223); */
+    border: 2px solid #e8e8e8;
+    float: left;
+    margin-left: 55px;
+    margin-top: 20px;
+    position: relative;
+}
+.img_deals{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    margin: 2% 2%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    float: left;
+}
+.img_content{
+    position: relative;
+    float: left !important;
+    margin-left: 240px;
+    margin-top: 30px;
+    /* font-size: 18px; */
+    /* font-weight: bold; */
+}
+.img_deals > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    object-fit: contain;
+    padding: 10px 10px;
+}
+.deals2_head h4{
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(33, 31, 31);
+}
+.deals_subDiv .mrp5{
+    font-size: 17px;
+    color: gray;
+    margin-top: 20px;
+    position: relative;
+    line-height: 4rem;
+       
+}
+.deals_copy .h6{
+    font-size: 15px !important;
+    color: rgb(61, 53, 53);
+    /* margin-top: 20px; */
+    font-weight: bold;
+    position: relative;
+}
+.deals_discCoupon .h3{
+    font-size: 16px;
+    color: black;
+    float: right;
+    margin-top: -28px;
+    position: relative;
+    margin-right: 25px !important;
+    background-image: url(https://assets.pharmeasy.in/web-assets/dist/1602b4ce.svg);
+    /* position: absolute; */
+    font-style: italic;
+    width: 96px;
+    height: 27px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+       
+}
+.byn .btn-success{
+    /* padding: 2px 2px; */
+    margin: 15px 0px;
+    position: absolute;
+    outline: none !important;
+    /* text-decoration: none; */
+}
+
+/* success___msg */
+
+.success___msg{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #e8e8e8;
+    z-index: 50;
+}

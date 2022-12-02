@@ -1,0 +1,915 @@
+.boxdiv{
+    width: 97%;
+    height: 205px;
+    margin: 2.8% 1%;
+}
+.boxdiv .box{
+    width: 31%;
+    height: 180px;
+    float: left;
+    box-shadow: 0px 0px 2px 2px var(--eleventh-color);
+    margin-left: 2%;
+    border-radius: 6px;
+}
+.box a .imgcont > img{
+    width: 180px;
+    height: 179px;
+    float: right;
+    position: relative;
+}
+.box a .imgcont1{
+    width: 99.9%;
+    height: 105px;
+    background-color: var(--eighth-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-top: 0.2px;
+}
+.box a .imgcont2{
+    width: 99.9%;
+    height: 105px;
+    background-color: var(--ninth-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-top: 0.2px;
+    margin-left: 0.5px !important;
+
+}
+.box a .imgcont3{
+    width: 99.9%;
+    height: 105px;
+    background-color: var(--tenth-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-top: 0.2px;
+    margin-left: 0.5px !important;
+
+}
+.box a .imgcont .content1{
+    background-color: #5aa1e4;
+    width: 133px;
+    height: 28px;
+    position: absolute;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.box a .imgcont .content2{
+    background-color: #5aa1e4;
+    width: 113px;
+    height: 28px;
+    position: absolute;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.box .imgcont .content3{
+    position: absolute;
+}
+.box a .imgcont1 .content1 .off1{
+    font-family: 'Gill Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.box a .imgcont1 .content1 .cont{
+    margin: 3px 6px;
+}
+.box a .imgcont2 .content2 .off{
+    font-family: 'Gill Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.box a .imgcont2 .content2 .cont1{
+    margin: 3px 6px;
+}
+.heading h2{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-decoration: none !important;
+    margin: 30px 14px;
+    position: relative;
+    color: var(--fourteen-color);
+}
+.heading1 h2{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-decoration: none !important;
+    margin: 30px 14px;
+    position: relative;
+    color: var(--fourteen-color);
+    z-index: 1;
+}
+.heading2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-decoration: none !important;
+    margin: 55px 14px;
+    position: relative;
+    color: var(--fourteen-color);
+    z-index: 1;
+}
+.heading2 h4{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: #3996fa;
+    width: 50px;
+    height: 21px;
+    margin-top: -53px;
+    margin-left: 15px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h4 .newStyle{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-color: red;
+    z-index: 100;
+}
+.btnn button{
+    border: none;
+    outline: none;
+    padding: 11px 30px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    position: absolute;
+    text-decoration: none;
+}
+.btn1 button{
+    background-color: var(--fifth-color);
+    color: white;
+}
+.btn2 button{
+    background-color: var(--sixth-color);
+    color: white;
+}
+.btn3 button{
+    background-color: var(--seventh-color);
+    color: white;
+}
+
+.plusmember{
+    width: 97%;
+    height: 100px;
+    background-color: #a190f7;
+    margin: 58px 1.5%;
+    border-radius: 6px;
+}
+.plusmemberimg > img{
+    width: 18%;
+    height: 40px;
+    margin: 30px 33px;
+    float: left;
+    position: relative;
+}
+.plusmemberpara{
+    float: left;
+    width: 55%;
+    margin: 26px;
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.plusmembersecimg > img{
+    float: left;
+    width: 15%;
+    height: 145px;
+    margin-top: -45px;
+    margin-left: 2%;
+    position: relative;
+}
+@media only screen and (max-width: 1222px) and (min-width: 1012px)  {
+    .boxdiv{
+        width: 98%;
+        height: 205px;
+        margin: 2% 1%;
+    }
+    .boxdiv .box{
+        width: 31%;
+        height: 180px;
+        float: left;
+        margin-left: 2%;
+    }
+    .box a .imgcont > img{
+        width: 180px;
+        height: 179px;
+        float: right;
+        position: relative;
+    }
+    .box a .imgcont1{
+        width: 99.9%;
+        height: 105px;
+        margin-top: 0.2px;
+    }
+    .box a .imgcont2{
+        width: 99.9%;
+        height: 105px;
+    }
+    .box a .imgcont3{
+        width: 99.9%;
+        height: 105px;
+    
+    }
+    .box a .imgcont .content1{
+        width: 133px;
+        height: 28px;
+    }
+    .box a .imgcont .content2{
+        width: 113px;
+        height: 28px;
+    }
+    .box a .imgcont1 .content1 .cont{
+        margin: 3px 6px;
+    }
+    .box a .imgcont2 .content2 .off{
+        font-size: 12px;
+    }
+    .box a .imgcont2 .content2 .cont1{
+        margin: 3px 6px;
+    }
+    .heading h2{
+        font-size: 16px;
+        margin: 30px 14px;
+        z-index: 20;
+    }
+    .heading1 h2{
+        font-size: 17px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h2{
+        font-size: 17px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 55px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h4{
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        background-color: #3996fa;
+        width: 50px;
+        height: 21px;
+        margin-top: -53px;
+        margin-left: 15px;
+        border-radius: 15px;
+    }
+    .plusmemberimg > img{
+        width: 18%;
+        height: 40px;
+        margin: 30px 33px;
+        float: left;
+        position: relative;
+    }
+    .plusmemberpara{
+        margin: 26px 13px;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 930px) and (max-width: 1012px) {
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 2% 0.5%;
+    }
+    .boxdiv .box{
+        width: 32%;
+        height: 170px;
+        margin-left: 1%;
+    }
+    .box a .imgcont > img{
+        width: 170px;
+        height: 170px;
+        float: right;
+        position: relative;
+    }
+    .plusmemberimg > img{
+        width: 17%;
+        height: 35px;
+        margin: 30px 13px;
+        float: left;
+        position: relative;
+    }
+    .plusmemberpara{
+        margin: 26px 10px;
+        font-size: 12px;
+    }
+   
+}
+
+
+
+@media only screen and (min-width: 860px) and (max-width: 931px) {
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 2% 0.5%;
+    }
+    .boxdiv .box{
+        width: 32%;
+        height: 160px;
+        margin-left: 1%;
+    }
+    .box a .imgcont > img{
+        width: 160px;
+        height: 160px;
+        float: right;
+        position: relative;
+    }
+    .heading h2{
+        font-size: 14px;
+        margin: 30px 14px;
+        z-index: 20;
+    }
+    .heading1 h2{
+        font-size: 14px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h2{
+        font-size: 14px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 55px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .btnn button{
+        padding: 10px 28px;
+        margin: 11px 15px;
+        border-radius: 5px;
+    }
+    .plusmember{
+        margin-top: 50px;
+    }
+    .plusmemberimg > img{
+        width: 17%;
+        height: 35px;
+        margin: 30px 13px;
+        float: left;
+        position: relative;
+    }
+    .plusmemberpara{
+        margin: 26px 10px;
+        font-size: 12px;
+    }
+   
+}
+
+
+@media only screen and (min-width: 759px) and (max-width: 861px) {
+
+    .box a .imgcont .content1{
+        width: 110px;
+    }
+    .box a .imgcont .content2{
+        width: 110px;
+    }
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 5% 0.5%;
+    }
+    .boxdiv .box{
+        width: 32%;
+        height: 150px;
+        margin-left: 1%;
+    }
+    .box a .imgcont > img{
+        width: 145px;
+        height: 145px;
+    }
+    .heading h2{
+        font-size: 13px;
+        margin: 30px 14px;
+        z-index: 20;
+    }
+    .heading1 h2{
+        font-size: 13px;
+    }
+    .heading2 h2{
+        font-size: 13px;
+    }
+    .btnn button{
+        padding: 8px 23px;
+        margin: 8px 10px;
+        border-radius: 5px;
+    }
+    .plusmember{
+        margin-top: 40px;
+    }
+    .plusmemberimg > img{
+        width: 16%;
+        height: 32px;
+        margin: 30px 33px;
+        float: left;
+        position: relative;
+    }
+    .plusmemberpara{
+        margin: 26px 5px;
+        font-size: 15px;
+    }
+  }
+
+
+  @media only screen and (min-width: 710px) and (max-width: 760px) {
+    .box a .imgcont .content1{
+        width: 110px;
+    }
+    .box a .imgcont .content2{
+        width: 110px;
+    }
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 5% 0.5%;
+    }
+    .boxdiv .box{
+        width: 32%;
+        height: 150px;
+        margin-left: 1%;
+    }
+    .box a .imgcont > img{
+        width: 145px;
+        height: 145px;
+    }
+    .heading h2{
+        font-size: 13px;
+        margin: 30px 14px;
+        z-index: 20;
+    }
+    .heading1 h2{
+        font-size: 13px;
+    }
+    .heading2 h2{
+        font-size: 13px;
+    }
+    .btnn button{
+        padding: 8px 23px;
+        margin: 8px 10px;
+        border-radius: 5px;
+    }
+    .plusmemberpara{
+        margin: 26px 5px;
+        font-size: 15px;
+    }
+  }
+  @media only screen and (min-width: 652px) and (max-width: 711px) {
+
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 5% 0.5%;
+    }
+    .boxdiv .box{
+        width: 80%;
+        height: 200px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .box a .imgcont > img{
+        width: 210px;
+        height: 200px;
+        float: right;
+        position: relative;
+    }
+    .box a .imgcont1{
+        width: 99.9%;
+        height: 115px;
+        background-color: var(--eighth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+    }
+    .box a .imgcont2{
+        width: 99.9%;
+        height: 105px;
+        background-color: var(--ninth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+        margin-left: 0.5px !important;
+    
+    }
+    .box a .imgcont3{
+        width: 99.9%;
+        height: 105px;
+        background-color: var(--tenth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+        margin-left: 0.5px !important;
+    
+    }
+    .heading h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+    }
+    .heading1 h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 55px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h4{
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        background-color: #3996fa;
+        width: 50px;
+        height: 21px;
+        margin-top: -53px;
+        margin-left: 15px;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading h4 .newStyle{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: red;
+        z-index: 100;
+    }
+    .btnn button{
+        border: none;
+        outline: none;
+        padding: 11px 30px;
+        margin: 15px 15px;
+        border-radius: 5px;
+        position: absolute;
+        text-decoration: none;
+    }
+    
+    .plusmember{
+        width: 97%;
+        height: 100px;
+        background-color: #a190f7;
+        margin: 518px 1.5% 40px;
+        border-radius: 6px;
+    }
+    .plusmemberimg > img{
+        width: 16%;
+        height: 40px;
+    }
+    .plusmemberpara{
+        float: left;
+        width: 50%;
+        margin:26px 5px;
+        position: relative;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .plusmembersecimg > img{
+        float: left;
+        width: 15%;
+        height: 145px;
+        margin-top: -45px;
+        margin-left: 2%;
+        position: relative;
+    }
+    
+  }
+
+
+
+  @media only screen and (min-width: 590px) and (max-width: 651px) {
+
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 5% 0.5%;
+    }
+    .boxdiv .box{
+        width: 80%;
+        height: 200px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .box a .imgcont > img{
+        width: 210px;
+        height: 200px;
+        float: right;
+        position: relative;
+    }
+    .box a .imgcont1{
+        width: 99.9%;
+        height: 115px;
+        background-color: var(--eighth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+    }
+    .box a .imgcont2{
+        width: 99.9%;
+        height: 105px;
+        background-color: var(--ninth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+        margin-left: 0.5px !important;
+    
+    }
+    .box a .imgcont3{
+        width: 99.9%;
+        height: 105px;
+        background-color: var(--tenth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+        margin-left: 0.5px !important;
+    
+    }
+    .heading h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+    }
+    .heading1 h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 55px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h4{
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        background-color: #3996fa;
+        width: 50px;
+        height: 21px;
+        margin-top: -53px;
+        margin-left: 15px;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading h4 .newStyle{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: red;
+        z-index: 100;
+    }
+    .btnn button{
+        border: none;
+        outline: none;
+        padding: 11px 30px;
+        margin: 15px 15px;
+        border-radius: 5px;
+        position: absolute;
+        text-decoration: none;
+    }
+    
+    .plusmember{
+        width: 97%;
+        height: 100px;
+        background-color: #a190f7;
+        margin: 518px 1.5% 40px;
+        border-radius: 6px;
+    }
+    .plusmemberimg > img{
+        width: 16%;
+        height: 40px;
+    }
+    .plusmemberpara{
+        float: left;
+        width: 50%;
+        margin:26px 5px;
+        position: relative;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .plusmembersecimg > img{
+        float: left;
+        width: 15%;
+        height: 145px;
+        margin-top: -45px;
+        margin-left: 2%;
+        position: relative;
+    }
+    
+  }
+
+
+
+  @media only screen and (min-width: 300px) and (max-width: 591px) {
+
+    .boxdiv{
+        width: 99%;
+        height: 205px;
+        margin: 5% 0.5%;
+    }
+    .boxdiv .box{
+        width: 80%;
+        height: 200px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .box a .imgcont > img{
+        width: 200px;
+        height: 200px;
+        float: right;
+        position: relative;
+    }
+    .box a .imgcont1{
+        width: 99.9%;
+        height: 125px;
+        background-color: var(--eighth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+    }
+    .box a .imgcont2{
+        width: 99.9%;
+        height: 125px;
+        background-color: var(--ninth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+        margin-left: 0.5px !important;
+    
+    }
+    .box a .imgcont3{
+        width: 99.9%;
+        height: 125px;
+        background-color: var(--tenth-color);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-top: 0.2px;
+        margin-left: 0.5px !important;
+    
+    }
+    .heading h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+    }
+    .heading1 h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 30px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h2{
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+        text-decoration: none !important;
+        margin: 55px 14px;
+        position: relative;
+        color: var(--fourteen-color);
+        z-index: 1;
+    }
+    .heading2 h4{
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        background-color: #3996fa;
+        width: 50px;
+        height: 21px;
+        margin-top: -53px;
+        margin-left: 15px;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading h4 .newStyle{
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        background-color: red;
+        z-index: 100;
+    }
+    .btnn button{
+        border: none;
+        outline: none;
+        padding: 11px 30px;
+        margin: 15px 15px;
+        border-radius: 5px;
+        position: absolute;
+        text-decoration: none;
+    }
+    
+    .plusmember{
+        width: 97%;
+        height: 100px;
+        background-color: #a190f7;
+        margin: 508px 1.5% 40px;
+        border-radius: 6px;
+    }
+    .plusmemberimg > img{
+        width: 15%;
+        height: 30px;
+        margin-left: 20px;
+    }
+    .plusmemberpara{
+        float: left;
+        width: 50%;
+        margin:26px 5px;
+        position: relative;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .plusmembersecimg > img{
+        float: left;
+        width: 18%;
+        height: 145px;
+        margin-top: -45px;
+        margin-left: 2%;
+        position: relative;
+    }
+    
+  }

@@ -1,0 +1,530 @@
+.backcoldiv {
+  width: 100% !important;
+  height: 500px;
+  position: relative;
+}
+.backcoldiv2 {
+  height: 250px;
+  background: #fff2f2;
+}
+.back-col-head {
+  width: 100%;
+  height: 130px;
+  background-color: #fff2f2 !important;
+  position: relative;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+}
+.back-col-head .start {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+}
+.back-col-head .end {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+}
+.data-time {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+}
+.back-col-img {
+  position: relative;
+  user-select: none;
+}
+.back-col-head .end .back-col-arrow {
+  position: relative;
+  font-size: 20px;
+}
+.backcolleftarrow .arrow___back {
+  font-weight: bold;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  background: #10847e;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+.backcolrightarrow .arrow___forward {
+  font-weight: bold;
+  /* font-size: 10px !important; */
+  width: 30px;
+  height: 30px;
+  background: #10847e;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+.backcolleftarrow .arrow___back:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 0px 2px 1px rgb(222, 218, 218);
+}
+.backcolrightarrow .arrow___forward:hover {
+  background: #fff;
+  box-shadow: 0px 0px 2px 1px rgb(222, 218, 218);
+  color: #000;
+}
+.back-col-img3 h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 63px;
+  margin-left: 30px;
+  color: #0a3836;
+}
+.back-col-img4 h2 {
+  font-weight: 600;
+  color: #e6949e;
+  user-select: none;
+}
+.backcolall a {
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0a3836;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+}
+
+/* 
+//////////////////////
+next part 
+/////////////////////
+*/
+
+.backcolimgcont {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow-x: scroll !important;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  /* position: relative; */
+  height: 500px;
+  margin-top: -105px !important;
+  width: 100%;
+  background: transparent;
+}
+.backcolimgcont .backcolimg {
+  max-width: 300px;
+  height: 230px;
+  border: 2px solid #dfe3e6;
+  background-color: #fff;
+  margin-left: 10px !important;
+  border-radius: 6px;
+  position: relative;
+  display: inline-block;
+  margin-right: 1%;
+}
+.backcolimgcont .backcolimg1 {
+  margin-left: 1% !important;
+}
+.backcolimgcont .backcolimg .backcolimgdiscout > img {
+  width: 230px;
+  height: 230px;
+  /* margin: 30px 60px; */
+  position: relative;
+  margin: auto;
+  object-fit: contain;
+  padding: 35px 30px;
+  bottom: -10px;
+}
+
+.backcolimgcont .backcolimg .backcolimgoffcont {
+  background-image: url(https://assets.pharmeasy.in/web-assets/dist/1602b4ce.svg);
+  position: absolute;
+  width: 92px;
+  height: 27px;
+  border-top-left-radius: 6px;
+}
+.backcolimgcont .backcolimg .backcolimgoffcont h3 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+.backcolimgbtncout {
+  position: relative;
+}
+.backcolimgbtncout .link p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Open Sans, sans-serif !important;
+  margin-top: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  position: relative;
+  color: black;
+}
+.backcolimgbtncout .backcolbtncout1 h4 {
+  font-size: 12px;
+  font-family: Open Sans, sans-serif !important;
+  margin-top: -2px;
+  color: #dfe3e6;
+}
+.backcolimgbtncout .backcolbtncout2 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Open Sans, sans-serif !important;
+  margin-top: -2px;
+}
+.labtestdiv {
+  width: 100%;
+  height: 130px;
+  margin-top: 55px;
+  padding: 0 2rem;
+  margin-bottom: 50px;
+}
+.labtestdiv a > img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 860px) and (min-width: 759px) {
+  .labtestdiv {
+    width: 100%;
+    height: 120px;
+    margin-top: 35px;
+    padding: 0 2rem;
+    margin-bottom: 50px;
+  }
+  .labtestdiv a > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 759px) and (min-width: 652px) {
+  .backcoldiv {
+    width: 100% !important;
+    height: 500px;
+    position: relative;
+  }
+  .backcoldiv2 {
+    height: 250px;
+    background: #fff2f2;
+  }
+  .back-col-head {
+    width: 100%;
+    height: 130px;
+    padding-bottom: 3rem;
+  }
+
+  .back-col-img3 h2 {
+    font-size: 14px;
+    margin-top: 63px;
+    margin-left: 15px;
+  }
+  .backcolall a {
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 15px;
+  }
+
+  /* 
+  //////////////////////
+  next part 
+  /////////////////////
+  */
+
+  .backcolimgcont {
+    height: 500px;
+    margin-top: -105px !important;
+    width: 100%;
+    background: transparent;
+  }
+  .backcolimgcont .backcolimg {
+    max-width: 200px;
+    height: 230px;
+    margin-left: 10px !important;
+    margin-right: 1%;
+  }
+  .backcolimgcont .backcolimg1 {
+    margin-left: 1% !important;
+  }
+  .backcolimgcont .backcolimg .backcolimgdiscout > img {
+    width: 200px;
+    height: 200px;
+    padding: 35px 30px;
+    bottom: -10px;
+  }
+
+  .backcolimgcont .backcolimg .backcolimgoffcont h3 {
+    position: absolute;
+    font-size: 13px;
+  }
+  .backcolimgbtncout .link p {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .backcolimgbtncout .backcolbtncout1 h4 {
+    font-size: 11px;
+    margin-top: -3px;
+  }
+  .backcolimgbtncout .backcolbtncout2 {
+    font-size: 12px;
+  }
+  .labtestdiv {
+    height: 120px;
+    margin-top: 35px;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 652px) and (min-width: 590px) {
+  .backcoldiv {
+    width: 100% !important;
+    height: 500px;
+    position: relative;
+  }
+  .backcoldiv2 {
+    height: 250px;
+    background: #fff2f2;
+  }
+  .back-col-head {
+    width: 100%;
+    height: 130px;
+    padding-bottom: 3rem;
+  }
+
+  .back-col-img3 h2 {
+    font-size: 14px;
+    margin-top: 63px;
+    margin-left: 15px;
+  }
+  .backcolall a {
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 15px;
+  }
+
+  /* 
+  //////////////////////
+  next part 
+  /////////////////////
+  */
+
+  .backcolimgcont {
+    height: 500px;
+    margin-top: -105px !important;
+    width: 100%;
+    background: transparent;
+  }
+  .backcolimgcont .backcolimg {
+    max-width: 200px;
+    height: 210px;
+    margin-left: 10px !important;
+    margin-right: 1%;
+  }
+  .backcolimgcont .backcolimg1 {
+    margin-left: 1% !important;
+  }
+  .backcolimgcont .backcolimg .backcolimgdiscout > img {
+    width: 200px;
+    height: 200px;
+    padding: 35px 30px;
+    bottom: -10px;
+  }
+
+  .backcolimgcont .backcolimg .backcolimgoffcont h3 {
+    position: absolute;
+    font-size: 13px;
+  }
+  .backcolimgbtncout .link p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .backcolimgbtncout .backcolbtncout1 h4 {
+    font-size: 11px;
+    margin-top: -3px;
+  }
+  .backcolimgbtncout .backcolbtncout2 {
+    font-size: 12px;
+  }
+  .labtestdiv {
+    height: 120px;
+    margin-top: 35px;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 590px) and (min-width: 574px) {
+  .backcoldiv {
+    width: 100% !important;
+    height: 500px;
+    position: relative;
+  }
+  .backcoldiv2 {
+    height: 250px;
+    background: #fff2f2;
+  }
+  .back-col-head {
+    width: 100%;
+    height: 130px;
+    padding-bottom: 3rem;
+  }
+  .back-col-img4 h2 {
+    font-size: 15px;
+  }
+  .back-col-img3 h2 {
+    font-size: 10px;
+    margin-top: 63px;
+    margin-left: 15px;
+  }
+  .backcolall a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 13px;
+  }
+
+  /* 
+  //////////////////////
+  next part 
+  /////////////////////
+  */
+
+  .backcolimgcont {
+    height: 500px;
+    margin-top: -105px !important;
+    width: 100%;
+    background: transparent;
+  }
+  .backcolimgcont .backcolimg {
+    max-width: 200px;
+    height: 210px;
+    margin-left: 10px !important;
+    margin-right: 1%;
+  }
+  .backcolimgcont .backcolimg1 {
+    margin-left: 1% !important;
+  }
+  .backcolimgcont .backcolimg .backcolimgdiscout > img {
+    width: 200px;
+    height: 200px;
+    padding: 35px 30px;
+    bottom: -10px;
+  }
+
+  .backcolimgcont .backcolimg .backcolimgoffcont h3 {
+    position: absolute;
+    font-size: 13px;
+  }
+  .backcolimgbtncout .link p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .backcolimgbtncout .backcolbtncout1 h4 {
+    font-size: 11px;
+    margin-top: -3px;
+  }
+  .backcolimgbtncout .backcolbtncout2 {
+    font-size: 12px;
+  }
+  .labtestdiv {
+    height: 120px;
+    margin-top: 35px;
+    padding: 0 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 575px) and (min-width: 500px) {
+  .backcoldiv {
+    width: 100% !important;
+    height: 500px;
+    position: relative;
+  }
+  .backcoldiv2 {
+    height: 250px;
+    background: #fff2f2;
+  }
+  .back-col-head {
+    width: 100%;
+    height: 130px;
+    padding-bottom: 3rem;
+  }
+  .back-col-img4 h2 {
+    font-size: 15px;
+  }
+  .back-col-img3 h2 {
+    font-size: 10px;
+    margin-top: 63px;
+    margin-left: 15px;
+  }
+  .backcolall a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 13px;
+  }
+
+  /* 
+  //////////////////////
+  next part 
+  /////////////////////
+  */
+
+  .backcolimgcont {
+    height: 500px;
+    margin-top: -105px !important;
+    width: 100%;
+    background: transparent;
+  }
+  .backcolimgcont .backcolimg {
+    max-width: 200px;
+    height: 210px;
+    margin-left: 10px !important;
+    margin-right: 1%;
+  }
+  .backcolimgcont .backcolimg1 {
+    margin-left: 1% !important;
+  }
+  .backcolimgcont .backcolimg .backcolimgdiscout > img {
+    width: 200px;
+    height: 200px;
+    padding: 35px 30px;
+    bottom: -10px;
+  }
+
+  .backcolimgcont .backcolimg .backcolimgoffcont h3 {
+    position: absolute;
+    font-size: 13px;
+  }
+  .backcolimgbtncout .link p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .backcolimgbtncout .backcolbtncout1 h4 {
+    font-size: 11px;
+    margin-top: -3px;
+  }
+  .backcolimgbtncout .backcolbtncout2 {
+    font-size: 12px;
+  }
+  .labtestdiv {
+    height: 120px;
+    margin-top: 35px;
+    padding: 0 1rem;
+  }
+}

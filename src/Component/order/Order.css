@@ -1,0 +1,287 @@
+.OrderMedicine {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 135px;
+  display: inline-block;
+  /* background: red; */
+  padding: 20px 20px;
+}
+.OrderMedicine .orders {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65vh;
+  /* background: red; */
+  padding: 20px 20px 20px 40px;
+}
+.OrderMedicine .OrderMedicines___2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 55%;
+  height: 100%;
+  background: beige;
+  padding: 20px 20px;
+  border-radius: 6px;
+}
+
+.OrderMedicine .OrderMedicines2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background: beige;
+  padding: 20px 0px 20px;
+}
+
+.OrderMedicine .upload {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* display: block; */
+  width: 609px;
+  height: 60px;
+  border: 1px solid #077973;
+  border-radius: 6px;
+  padding-left: 20px;
+  /* margin-left: 120px; */
+  /* background: red; */
+}
+.upload span > img {
+  float: left;
+  position: relative;
+  width: 25px;
+  height: 30px;
+  /* margin: 13px 15px; */
+}
+.upload h3 {
+  float: left;
+  font-size: 17px;
+  font-weight: 600;
+  color: #10847e;
+  position: relative;
+}
+.orderSerch {
+  width: 190px;
+  border-radius: 6px;
+  height: 140px;
+  /* margin-left: 20px; */
+  /* margin-top: 20px; */
+  border: 1px solid #077973;
+  /* float: left; */
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 10px 20px 20px 5px;
+}
+.prescription1 {
+  width: 190px;
+  border-radius: 6px;
+  height: 140px;
+  /* margin-left: 20px; */
+  /* margin-top: 20px; */
+  border: 1px solid #077973;
+  float: left;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 10px 20px 20px 5px;
+  cursor: pointer;
+}
+.prescription2 {
+  width: 190px;
+  border-radius: 6px;
+  height: 140px;
+  /* margin-left: 20px; */
+  /* margin-top: 20px; */
+  border: 1px solid #077973;
+  float: left;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 10px 20px 20px 5px;
+  cursor: pointer;
+}
+.prescriptionDiv {
+  position: relative;
+  /* margin-left: 100px; */
+  cursor: pointer;
+}
+.img1 > img {
+  width: auto;
+  height: auto;
+  /* margin: 15px 25px; */
+}
+.prescri h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3ba8a1;
+  padding: auto 9px;
+  line-height: 2.5rem;
+  margin-left: 13px;
+  letter-spacing: 0.7px;
+  margin-top: 3px;
+}
+.prescri h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3ba8a1;
+  padding: 7px 9px;
+  line-height: 0.8rem;
+  /* margin-left: 13px;
+    margin-top: 10px; */
+}
+.DontHavePrescription {
+  width: 330px;
+  height: 180px;
+  float: left;
+  border: 1px solid #10847e;
+  display: block;
+  margin: 18px 90px;
+  border-radius: 6px;
+  position: relative;
+}
+.DontHavePrescription:hover {
+  background-color: rgba(59, 168, 161, 0.4);
+  cursor: pointer;
+}
+.DontHavePrescription .nopres span > img {
+  float: left;
+  position: relative;
+  margin: -10px 15px;
+  padding: 10px 0px;
+  width: 15;
+  height: 25;
+}
+
+.DontHavePrescription .nopres h3 {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 0px;
+  color: #10847e;
+}
+.DontHavePrescription .ul {
+  font-size: 12px;
+  color: black;
+  margin-left: 36px;
+  line-height: 2.5rem;
+  margin-top: 15px;
+}
+.DontHavePrescription a .phone {
+  width: 260px;
+  height: 45px;
+  background-color: #10847e;
+  border-radius: 6px;
+  text-align: center;
+  margin-left: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.DontHavePrescription a .phone:hover {
+  background-color: rgba(59, 168, 161, 10);
+  cursor: pointer;
+}
+.DontHavePrescription a .phone .call {
+  display: inline-block;
+  margin: auto 5px;
+  text-decoration: none !important;
+}
+.DontHavePrescription .phone .ico {
+  display: inline-block;
+  margin: 8px 10px;
+  color: #ffffff;
+  font-size: 23px;
+}
+.OrderMedicine .CheckOut {
+  position: relative;
+}
+.OrderMedicine .CheckOut a {
+  width: 250px;
+  height: 45px;
+  background-color: #108078;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 130px 20px !important; */
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  /* margin-top: 40px; */
+  /* float: left; */
+  position: relative;
+  text-decoration: none;
+}
+.OrderMedicine .CheckOut a:hover {
+  background-color: #10847e;
+  cursor: pointer;
+}
+.securityDiv {
+  position: relative;
+  margin: 66px 100px;
+  display: inline-block;
+}
+.security1 {
+  position: relative;
+  float: left;
+  width: 260px;
+  padding: auto 150px !important;
+  margin-left: 50px;
+  height: 250px;
+}
+.security1 h2 {
+  position: relative;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.security1 p {
+  width: 210px;
+}
+.security2 {
+  position: relative;
+  float: left;
+  width: 260px;
+  padding: auto 150px !important;
+  height: 250px;
+}
+.security2 h2 {
+  position: relative;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.security2 p {
+  width: 210px;
+}
+.security3 {
+  position: relative;
+  float: left;
+  width: 260px;
+  padding: auto 150px !important;
+  height: 250px;
+}
+.security3 h2 {
+  position: relative;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.security3 p {
+  width: 210px;
+}

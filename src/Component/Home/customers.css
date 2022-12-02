@@ -1,0 +1,325 @@
+.userdiv {
+  width: 97%;
+  height: 280px;
+  /* margin-top: 40px; */
+  margin-left: 1.5%;
+}
+.userdiv .userimg > img {
+  float: left;
+  width: 150px;
+  height: 120px;
+  margin-left: 2%;
+  margin-top: 15px;
+  position: relative;
+}
+.userdiv .userimg2 > img {
+  margin-left: 155px;
+}
+.userdiv .usercont {
+  position: absolute;
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: -150px;
+}
+.userdiv .usercont h1 {
+  font-weight: bold;
+  font-size: 42px;
+  color: #2e4443;
+}
+.userdiv .usercont p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2e4443;
+}
+
+.pinodesdiv {
+  width: 98%;
+  height: 380px;
+  margin-left: 1%;
+  margin-top: 55px;
+}
+.pinodesdiv .pinodeshead {
+  width: 100%;
+  height: 50px;
+}
+.pinodeshead .pinodeshead2 {
+  float: left;
+  position: relative;
+}
+.pinodeshead .pinodesheadarrow {
+  float: right;
+  position: relative;
+  font-size: 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.pinodeshead .pinodeshead2 h2 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #29504e;
+  margin-top: -2px;
+}
+.pinodeshead .pinodesheadarrow .pincodeleftarrow {
+  margin-right: 25px;
+}
+.slick-slide {
+  margin: 0 15px;
+}
+.pincodeleftarrow .arrow___back {
+  font-weight: bold;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  background: #10847e;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+}
+.pincoderightarrow .arrow___forward {
+  font-weight: bold;
+  /* font-size: 10px !important; */
+  width: 30px;
+  height: 30px;
+  background: #10847e;
+  border-radius: 50%;
+  padding: 7px;
+  color: #fff;
+}
+.pincodeleftarrow .arrow___back:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 0px 2px 1px rgb(222, 218, 218);
+}
+.pincoderightarrow .arrow___forward:hover {
+  background: #fff;
+  box-shadow: 0px 0px 2px 1px rgb(222, 218, 218);
+  color: #000;
+}
+.pinodesimgcont {
+  /* display: flex; */
+  /* justify-content: left; */
+  /* align-items: center; */
+  /* overflow-x: auto; */
+  overflow-y: hidden;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  transition: ease 1000ms;
+
+}
+.pinodesimgcont .customer___content {
+  width: 240px;
+  height: 220px;
+  background: #e5faef;
+  float: left;
+  margin-left: 2px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.pinodesimgcont .pinodesimg2 {
+  margin-left: 0px !important;
+  transition: 0.9s;
+}
+.pinodesimg .pincontent p {
+  font-size: 12px;
+  color: #29504e;
+  width: 200px;
+  height: 170px;
+  position: relative;
+  margin: -10px 15px;
+}
+.pinodesimg .pinimg > img {
+  width: 20px;
+  height: 17px;
+  margin: 20px 15px;
+}
+.pinodesimg .pincont h3 {
+  font-size: 16px;
+  color: #223837;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.pinodesimg .pincont {
+  /* margin-top: -85px; */
+  position: relative;
+}
+.pinodesimg .pincont h4 {
+  font-size: 14px;
+  color: #b4b9bd;
+  padding-left: 10px;
+
+}
+
+
+@media only screen and (min-width: 710px) and (max-width: 759px) {
+  .userdiv {
+    width: 98%;
+    height: 280px;
+    /* margin-top: 40px; */
+    margin-left: 1%;
+  }
+  .userdiv .usercont h1 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #2e4443;
+  }
+  .userdiv .usercont p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #2e4443;
+  }
+  .pinodeshead .pinodeshead2 h2 {
+    font-size: 15px;
+  }
+  .slick-slide {
+    margin: 0 10px;
+  }
+
+  .pinodesimgcont .customer___content {
+    width: 220px;
+    height: 200px;
+  }
+  .pinodesimg .pincontent p {
+    font-size: 11px;
+    color: #29504e;
+    width: 200px;
+    height: 170px;
+    position: relative;
+    margin: -10px 15px;
+  }
+  .pinodesimg .pinimg > img {
+    width: 20px;
+    height: 17px;
+    margin: 20px 15px;
+  }
+  .pinodesimg .pincont h3 {
+    font-size: 16px;
+    color: #223837;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .pinodesimg .pincont h4 {
+    font-size: 14px;
+    color: #b4b9bd;
+    padding-left: 10px;
+  
+  }
+
+}
+
+
+@media only screen and (max-width: 760px) and (min-width: 652px) {
+  .userdiv {
+    width: 98%;
+    height: 280px;
+    margin-top: -80px;
+    margin-left: 1%;
+  }
+  .userdiv .usercont h1 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #2e4443;
+  }
+  .userdiv .usercont p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #2e4443;
+  }
+  .pinodeshead .pinodeshead2 h2 {
+    font-size: 15px;
+  }
+  .slick-slide {
+    margin: 0 10px;
+  }
+
+  .pinodesimgcont .customer___content {
+    width: 200px;
+    height: 190px;
+  }
+  .pinodesimg .pincontent p {
+    font-size: 8px;
+    color: #29504e;
+    width: 200px;
+    height: 170px;
+    position: relative;
+    margin: 10px 15px;
+    padding-right: 20px !important;
+  }
+  .pinodesimg .pinimg > img {
+    width: 20px;
+    height: 17px;
+    margin: 20px 15px;
+  }
+  .pinodesimg .pincont h3 {
+    font-size: 14px;
+    color: #223837;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .pinodesimg .pincont h4 {
+    font-size: 13px;
+    color: #b4b9bd;
+    padding-left: 10px;
+  
+  }
+
+}
+
+
+
+@media only screen and (max-width: 574px) and (min-width: 500px) {
+  .userdiv {
+    width: 98%;
+    height: 280px;
+    margin-top: -80px;
+    margin-left: 1%;
+  }
+  .userdiv .usercont h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #2e4443;
+  }
+  .userdiv .usercont p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #2e4443;
+  }
+  .pinodeshead .pinodeshead2 h2 {
+    font-size: 13px;
+  }
+  .slick-slide {
+    margin: 0 5px;
+  }
+
+  .pinodesimgcont .customer___content {
+    width: 180px;
+    height: 180px;
+  }
+  .pinodesimg .pincontent p {
+    font-size: 8px;
+    color: #29504e;
+    width: 200px;
+    height: 170px;
+    position: relative;
+    margin: 10px 15px;
+    padding-right: 40px !important;
+  }
+  .pinodesimg .pinimg > img {
+    width: 20px;
+    height: 17px;
+    margin: 20px 15px;
+  }
+  .pinodesimg .pincont h3 {
+    font-size: 13px;
+    color: #223837;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .pinodesimg .pincont h4 {
+    font-size: 11px;
+    color: #b4b9bd;
+    padding-left: 10px;
+  
+  }
+
+}
