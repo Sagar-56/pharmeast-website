@@ -32,7 +32,6 @@ const HeaderSideBar = (props) => {
       <h2 onClick={handleClosed}>&times;</h2>
       <div className="cart___offer___login2">
         <ul className="second-list">
-          {/* <li><Link to={`/Offer2/CashbackListing`} target={"_parent"}><img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt="Offers.img" /> Offers</Link></li> */}
           <li
             id="basic-button"
             aria-controls={open ? 'basic-menu' : undefined}

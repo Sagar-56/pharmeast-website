@@ -14,7 +14,7 @@ const OfferDisplay = (props) => {
                             <img src={item.cashback_thumb} alt={item.cashback_thumb} />
                         </div>
                         <div className="offbcont">
-                            <Link className="link" target={"_blank"} to={`/offer2/${item.state_id}`} key={item.state_id} style={{ textDecoration: 'none' }}>
+                            <Link className="link" target={"_parent"} to={`/offer2/${item.state_id}`} key={item.state_id} style={{ textDecoration: 'none' }}>
                                 <div className="offcontflat">
                                     <h3>{item.cashback_head}</h3>
                                 </div>

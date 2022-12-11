@@ -146,7 +146,7 @@
 }
 
 
-@media only screen and (max-width: 590px) and (min-width: 574px) {
+@media only screen and (max-width: 590px) and (min-width: 500px) {
     .featureimgcont{
         min-width: 18.5%;
         min-height: 185px;

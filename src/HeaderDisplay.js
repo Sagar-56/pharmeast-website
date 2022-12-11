@@ -11,7 +11,7 @@ const HeaderDisplay = (props) => {
     const [password, setPassword] = useState('')
     const [password2, setPassword2] = useState('')
 
-
+    // https://useapi.herokuapp.com/api/register
     // validation
     const [isValid, setIsValid] = useState(false)
     const [isLastName, setIsLastName] = useState(false)
@@ -21,13 +21,11 @@ const HeaderDisplay = (props) => {
     const [isValidation, setIsValidation] = useState(false)
 
     const history = useHistory();
-    // const [firstName, setFirstName] = useState('')
     const handleSubmit = async (e) => {
-        // console.log("=>", e)
         e.preventDefault()
         let data = { firstname, lastname, email, password, password2 }
         console.warn("signup", data)
-        let result = await fetch("https://useapi.herokuapp.com/api/register", {
+        let result = await fetch("https://dull-plum-hippopotamus-belt.cyclic.app/api/register", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
@@ -36,7 +34,7 @@ const HeaderDisplay = (props) => {
             }
         })
         result = await result.json()
-        console.warn("success", result)
+        // console.warn("success", result)
         if (result.success === true) {
             localStorage.setItem("register", JSON.stringify(result))
             sessionStorage.setItem("register", JSON.stringify(result))

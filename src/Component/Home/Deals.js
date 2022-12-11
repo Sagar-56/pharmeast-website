@@ -3,11 +3,11 @@ import React, { Component } from "react";
 import './Deals.css';
 import DealsProducts from "./DealsProducts";
 
-
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-let DUrl = "https://minodeapi.herokuapp.com/dealsdata";
+// let DUrl = "https://minodeapi.herokuapp.com/dealsdata";
+let DUrl = "https://good-gray-wombat-ring.cyclic.app/dealsdata";
 
 class Deals extends Component {
     constructor() {
@@ -19,7 +19,6 @@ class Deals extends Component {
                 minutes: 0,
                 seconds: 0
             },
-            // duration: 21 * 12 * 2,
             duration: 200 * 60 * 1000,
             timer: null
         }
@@ -82,20 +81,15 @@ class Deals extends Component {
             dealsSlide.append(dealsItem[0])
             event.target.classList.add("offTrans")
             event.target.style.transition = "0.5s"
-            // this.setState({color: !this.state.color})
         }
 
         const nextSlidesDeals = (event) => {
             dealsSlide.prepend(dealsItem[dealsItem.length - 1])
             event.target.classList.add("offTrans")
             event.target.style.transition = "0.5s"
-
-            // this.setState({color: !this.state.color})
         }
         // window.onload=this.state.startTimer;
-        // this.componentWillUnmount=()=>{
-            // window.onload=this.state.startTimer;
-        // }
+            window.onload=this.state.startTimer;
         return (
             <>
                 <div className="labtestdiv">

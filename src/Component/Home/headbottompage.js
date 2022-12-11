@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './headbottompage.css';
 import { Link } from 'react-router-dom'
-import Offer from "./Offer";
 
 
 class headbottompage extends Component {
@@ -15,7 +14,6 @@ class headbottompage extends Component {
                                 <div className="content content1">
                                     <div className="cont">
                                         <span className="off1">FLAT</span>&ensp;
-                                        {/* <strike style={{color: 'black'}}><span className="off1">15%</span></strike>&ensp; */}
                                         <span className="off1">18% OFF</span>
                                     </div>
                                     <div className="heading">

@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document pharmeasy</title>
+    <link rel="stylesheet" href="pharmeasy.css" type="text/css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/494557661e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="PharmEasy.js"></script>
+</head>
+<body>
+    <div id="maindiv">
+        <nav>
+            <div class="firstnav">
+                <div class="imgdiv">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="pharmeasy.img">
+                </div>
+                <div class="serchbar">
+                    <form action="#" class="firstform">
+                        <div class="pin">Select Pincode&ensp;<span class="firstbtn"><i class="fa-solid fa-caret-down"></i></span></div>
+                        <div class="outline"></div>
+                    </form>
+                    <div class="height"></div>
+                    <form action="#" class="secondform">
+                        <input type="text" aria-label="readonly input example" name="search" aria-label="search" placeholder="Search Medicines/Health Products @18% Off" class="secondinput">
+                        <button type="submit" class="secondbtn" style="font-size: 18px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+            <!-- breakpoint -->
+            <div id="secondnav">
+             <div class="darkmode" style="position: absolute;">
+                <div class="changemode">
+                  <img src="outline_light_mode_black_24dp.png" alt="light.img" id="icon" onclick="changeMode()">
+                </div>
+            </div>
+                <ul class="firstlist">
+                    <li><a href="#">Order Medicines</a></li>
+                    <li><a href="#">Healthcare Products</a></li>
+                    <li><a href="#">Lab Tests</a></li>
+                    <li><a href="#">RTPCR</a></li>
+                </ul>
+                <ul class="secondlist">
+                    <li><a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt="Offers.img"> Offers</a></li>
+                    <li><a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="Offers.img"> Login / Signup</a></li>
+                    <li><a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt="Offers.img"> Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+         <!-- header -->
+    <div class="coupondiv">
+        <a href="#"><div id="coupon">
+            <button onclick="del()">&times;</button>
+            <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="pharmeasy.img">
+            <!-- <button class="btn btn-warning"><a href="#">Order Now</a></button> -->
+            <div class="code">
+                <h1>PA34RM68EY</h1>
+            </div>
+        </div>
+        </a>
+    </div>
+       <div class="carousel slide" id="mySlider" data-ride="carousel" style="display: inline-block; margin-top: 125px;">
+           <div class="carousel-inner">
+               <ol class="carousel-indicators">
+                   <li data-target="#mySlider"  data-slide-to="0" class="active dot"></li>
+                   <li data-target="#mySlider"  data-slide-to="1"></li>
+                   <li data-target="#mySlider"  data-slide-to="2"></li>
+                   <li data-target="#mySlider"  data-slide-to="3"></li>
+                   <li data-target="#mySlider"  data-slide-to="4"></li>
+               </ol>
+             <div class="item active">
+                <img src="https://cms-contents.pharmeasy.in/banner/ff62f53c2ba-GRAND25DWEB.jpg" alt="img">
+             </div>
+            <div class="item">
+                <img src="https://cms-contents.pharmeasy.in/banner/60fb9bbcf9a-DWEB.jpg" alt="img">
+             </div>
+             <div class="item">
+                <img src="https://cms-contents.pharmeasy.in/banner/c779a38822e-Loss_Dweb_.jpg" alt="img">
+            </div>
+            <div class="item">
+                <img src="https://cms-contents.pharmeasy.in/banner/b06a67e4fc7-Sarva_dWeb.jpg" alt="img">
+            </div>
+            <div class="item">
+                <img src="https://cms-contents.pharmeasy.in/banner/dd96b2e3812-Yoga_Dweb.jpg" alt="img">
+            </div>
+            <a href="#mySlider" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#mySlider" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+           </div>
+       </div>
+       <!-- Header2 -->
+       <div class="boxdiv">
+           <div class="box">
+               <a href="#">
+                <div class="imgcont imgcont1">
+                    <div class="content content1">
+                        <div class="cont">
+                      <span  class="off1">FLAT</span>
+                      <strike style="color: white;"><span class="off1">15%</span></strike>
+                      <span class="off1">18% OFF</span>
+                    </div>
+                    <div class="heading">
+                       <h2>Order Medicines</h2>
+                    </div>
+                    </div>
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/7c645a8d.png" alt="pharmeasy.img">
+                </div>
+                <div class="btn1 btnn">
+                <button type="submit">Order Now</button>
+                </div>
+               </a>
+           </div>
+
+           <div class="box">
+               <a href="#">
+                <div class="imgcont imgcont2">
+                    <div class="content content2">
+                     <div class="cont1">
+                        <span class="off">UPTO</span>
+                        <span class="off">60% OFF</span>
+                     </div>
+                     <div class="heading1">
+                       <h2>Healthcare Products</h2>
+                     </div>
+                    </div>
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/c7c7095b.png" alt="pharmeasy.img">
+                </div>
+                <div class="btn2 btnn">
+                <button type="submit">Order Now</button>
+                </div>
+               </a>
+           </div>
+
+           <div class="box">
+               <a href="#">
+                   <div class="imgcont imgcont3">
+                       <div class="content content3">
+                        <div class="heading2">
+                            <h2>Lab Tests</h2>
+                            <h4>NEW</h4>
+                          </div>
+                       </div>
+                       <img src="https://assets.pharmeasy.in/web-assets/dist/e1d3ac1c.png" alt="pharmeasy.img">
+                   </div>
+                   <div class="btn3 btnn">
+                    <button type="order">Book Now</button>
+                   </div>
+               </a>
+           </div>
+       </div>
+       <!-- plusmember -->
+
+       <a href="#"><div class="plusmember">
+           <div class="plusmemberimg">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/e3db129c.png" alt="pharmeasy.img">
+           </div>
+           <div class="plusmemberpara">
+           <p>Save flat <b>5%</b> extra on medicines and <b>FREE</b> delivery with <b>PLUS</b> Membership <b></b></p>
+           </div>
+           <div class="plusmembersecimg">
+               <img src="https://assets.pharmeasy.in/web-assets/dist/b20b0932.png" alt="pharmeasy.img">
+           </div>
+
+       </div></a>
+       <!-- offerboxdiv -->
+
+    <div class="offersdiv">
+        <div class="offercontent">
+            <div class="offimg">
+               <img src="https://assets.pharmeasy.in/web-assets/dist/67890676.svg" alt="pharmeasy.img" class="offimg2">
+                <h1 class="offyou">Offers Just For You</h1>
+            </div>
+            <div class="offcont">
+                <div class="offall"><a href="#">See All Offers</a></div>
+                <div class="offarrow">
+                    <span class="leftarrow"><i class="bi bi-arrow-left"></i></span>
+                    <span class="rightarrow"><i class="bi bi-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+         <div class="offerboxdiv">
+          <a href="#"><div class="offb">
+               <div class="offbimg">
+                   <img src="https://cms-contents.pharmeasy.in/offer/f8bf7f78e45-25100.jpg" alt="pharmeasy.img">
+               </div>
+               <div class="offbcont">
+                   <div class="offcontflat">
+                       <h3>Flat 25% off + up to Rs.1000 cashback</h3>
+                   </div>
+                   <div class="codediv">
+                       <span class="code">Code:</span>
+                       <span class="code45 code2">GRAND25</span>
+                   </div>
+               </div>
+           </div></a>
+           <!-- vgbbc -->
+           <a href="#"><div class="offb offb2">
+            <div class="offbimg">
+                <img src="https://cms-contents.pharmeasy.in/offer/df070d160cc-Logo_PE_PE_PE.png" alt="pharmeasy.img">
+            </div>
+            <div class="offbcont">
+                <div class="offcontflat">
+                    <h3>FLAT 18% Off on all medicine orders.</h3>
+                </div>
+                <div class="codediv2">
+                    <h3 class="code">Code Not Required</h3>
+                </div>
+            </div>
+           </div></a>
+           <!-- jgjj -->
+           <a href="#"><div class="offb offb2 offb1">
+            <div class="offbimg">
+                <img src="https://cms-contents.pharmeasy.in/offer/823d606af82-sarva_logo.jpg" alt="pharmeasy.img">
+            </div>
+            <div class="offbcont3">
+                <div class="offcontflat3">
+                    <h3>Get 3-months complimentary membership to the SARVA app</h3>
+                </div>
+                <div class="codediv3">
+                    <span class="code31">Code:</span>
+                    <span class="code45 code3">SARVA</span>
+                </div>
+
+            </div>
+           </div></a>
+           <!-- <div class="offb offb2"></div> -->
+           <!-- <div class="offb offb2"></div> -->
+           <!-- <div class="offb offb2"></div> -->
+           <!-- <div class="offb offb2"></div> -->
+           <!-- <div class="offb offb2"></div> -->
+           <!-- <div class="offb offb2"></div> -->
+        </div>
+
+     </div>
+     <!-- offerboxdiv2 -->
+     <div class="featurediv">
+         <div class="featurecont">
+             <div class="featurefeat">
+               <h3>Featured Brands</h3>
+             </div>
+             <div class="featurearrow">
+                <span class="featleftarrow"><i class="bi bi-arrow-left"></i></span>
+                <span class="featrightarrow"><i class="bi bi-arrow-right"></i></span>
+             </div>
+         </div>
+         <!-- span -->
+         <a href="#"><div class="featureimgcont">
+             <div class="featureimg">
+                <img src="https://cms-contents.pharmeasy.in/carousel_item/f7a36c06aed-web_Dettol.jpg" alt="">
+             </div>
+             <div class="featurebuttom">
+
+             </div>
+
+         </div>
+         <a href="#"><div class="featureimgcont featureimgcont2 featureimgcont3">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div>
+        <a href="#"><div class="featureimgcont featureimgcont2 featureimgcont3">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/a2ec4d896ba-Web_Featured-Vicks.jpg" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"> <div class="featureimgcont featureimgcont2">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"> <div class="featureimgcont featureimgcont2 featureimgcont3">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/487644e2f83-Nivea_web.jpg" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"><div class="featureimgcont featureimgcont2">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/6964d91010f-Sensodyne.jpg?dim=146x0&dpr=1.75&q=100" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"> <div class="featureimgcont featureimgcont2 featureimgcont3">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/fffbe044dc3-web_Baidynath.jpg" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"> <div class="featureimgcont featureimgcont2">
+            <div class="featureimg">
+               <img src="https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <!-- <a href="#"> <div class="featureimgcont">
+            <div class="featureimg">
+               <img src="" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"> <div class="featureimgcont">
+            <div class="featureimg">
+               <img src="" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a>
+        <a href="#"> <div class="featureimgcont">
+            <div class="featureimg">
+               <img src="" alt="">
+            </div>
+            <div class="featurebuttom">
+
+            </div>
+
+        </div></a> -->
+
+     </div>
+     <!-- lab test -->
+     <div class="labtestdiv">
+        <a href="#"><img src="https://cdn01.pharmeasy.in/dam/banner/banner/c5ae1494075-DesktopTrust.png" alt="pharmeasy.img"></a>
+     </div>
+<!-- Deals of the Day -->
+<div class="backcoldiv">
+    <div class="backcolhead">
+        <div class="backcolimg">
+            <div class="backcolimg2">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/cc9b301d.svg" alt="pharmeasy.img">
+            </div>
+            <div class="backcolimg3"> <h2>Deals of the Day</h2></div>
+            <!-- <div class="backcolimg31">|</div> -->
+            <div class="backcolimg4"><h2>21:01:12 left</h2></div>
+        </div>
+        <div class="backcolarrowdiv">
+            <div class="backcolall"><a href="#">View All</a></div>
+            <div class="backcolarrow">
+                <span class="backcolleftarrow"><i class="bi bi-arrow-left"></i></span>
+                <span class=" backcolrightarrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="backcolimgcont">
+      <div class="backcolimg">
+           <div class="backcolimgdiscout backcolimgdiscout1">
+            <div class="backcolimgoffcont">
+                <h3>15% OFF</h3>
+            </div>
+            <img src="https://cdn01.pharmeasy.in/dam/products_otc/W28150/optimum-nutrition-on-serious-mass-weight-gain-powder-3-lbs-136-kg-chocolate-2-1641794647.jpg" alt="pharmeasy.img">
+           </div>
+           <div class="backcolimgbtncout backcolimgbtncout1">
+               <p>Optimum Nutrition (on) Serious Mass Weight ...</p>
+               <div class="backcolbtncout1">
+                <h4>MRP<strike>₹1699</strike></h4>
+            </div>
+            <div class="backcolbtncout2">₹1444.15</div>
+           </div>
+      </div>
+      <div class="backcolimg backcolimg1">
+        <div class="backcolimgdiscout backcolimgdiscout2">
+            <div class="backcolimgoffcont">
+                <h3>30% OFF</h3>
+            </div>
+   
+            <img src="https://cdn01.pharmeasy.in/dam/products_otc/183150/volini-pain-relief-gel-30-gm-1-1643883494.jpg" alt="pharmeasy.img">
+           </div>
+           <div class="backcolimgbtncout backcolimgbtncout2">
+            <p>Volini Pain Relief Gel - 30 Gm</p>
+            <div class="backcolbtncout1">
+                <h4>MRP<strike>₹130</strike></h4>
+            </div>
+            <div class="backcolbtncout2">₹91</div>
+           </div>
+      </div>
+      <div class="backcolimg backcolimg1">
+        <div class="backcolimgdiscout backcolimgdiscout3">
+            <div class="backcolimgoffcont">
+                <h3>15% OFF</h3>
+            </div>
+   
+            <img src="https://cdn01.pharmeasy.in/dam/products_otc/X65262/liveasy-wellness-dusting-powder-100gm-2-1641794737.jpg" alt="pharmeasy.img">
+           </div>
+           <div class="backcolimgbtncout backcolimgbtncout3">
+                 <p>Clocip Anti Fungal Powder Of 100 Gm</p>
+                 <div class="backcolbtncout1">
+                    <h4>MRP<strike>₹116</strike></h4>
+                </div>
+                <div class="backcolbtncout2">₹103.24</div>
+           </div>
+      </div>
+      <div class="backcolimg backcolimg1">
+        <div class="backcolimgdiscout backcolimgdiscout4">
+            <div class="backcolimgoffcont">
+                <h3>10% OFF</h3>
+            </div>
+   
+            <img src="https://cdn01.pharmeasy.in/dam/products_otc/J51961/bold-care-extend-delay-spray-for-men-with-lidocaine-10-20g-2-1641792361.jpg" alt="pharmeasy.img">
+           </div>
+           <div class="backcolimgbtncout backcolimgbtncout4">
+             <p>Bold Care Extend Delay Spray For Men...</p>
+             <div class="backcolbtncout1">
+                <h4>MRP<strike>₹330</strike></h4>
+            </div>
+            <div class="backcolbtncout2">₹297</div>
+           </div>
+      </div>
+    </div>
+</div>
+<!-- Health Articles -->
+<div class="Health Articles">
+    <div class="Healthheaddiv">
+    <div class="Healthhead">
+      <h2>Health Articles</h2>
+    </div>
+        <div class="Healthhead2">
+            <div class="Healthall"><a href="#">See All</a></div>
+            <div class="Healtharrow">
+                <span class="Healthleftarrow"><i class="bi bi-arrow-left"></i></span>
+                <span class="Healthrightarrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+        </div>
+        </div>
+    <div class="healthimgcont">
+    <div class="Healthbdiv">
+        <div  class="Healthimg">
+         <img src="https://blog-images.pharmeasy.in/2022/02/23184353/Back-Pain.jpg" alt="pharmeasy.img">
+        </div>
+        <div class="Healthcont">
+              <h3>Best Pain Relief Products In India That Yo...</h3>
+              <p>Table of Contents BEST PAIN RELIEF PRODUCTS IN INDIABENEFITS OF PAIN RELIEF PRODU...</p>
+              <div class="Healthreadmore">
+                  <h3><a href="#"><span>Read More</span><span><i class="bi bi-chevron-right"></i></span></a></h3>
+              </div>
+        </div>
+
+    </div>
+    <div class="Healthbdiv Healthbdiv2">
+        <div class="Healthimg">
+         <img src="https://blog-images.pharmeasy.in/2022/02/22204900/face-cream.jpg" alt="pharmeasy.img">
+        </div>
+        <div class="Healthcont">
+            <h3>Get Well-Nourished And Moisturized Skin...</h3>
+            <p>Table of Contents Best body lotions in IndiaBenefits of using a body lotionThings to consider before...</p>
+            <div class="Healthreadmore">
+                <h3><a href="#"><span>Read More</span><span><i class="bi bi-chevron-right"></i></span></a></h3>
+            </div>
+        </div>
+    </div>
+    <div class="Healthbdiv Healthbdiv2">
+        <div  class="Healthimg">
+         <img src="https://blog-images.pharmeasy.in/2022/02/22200118/ApplyOil.jpg" alt="pharmeasy.img">
+        </div>
+        <div class="Healthcont">
+            <h3>Best Hair Oils In India For Shiny Lustrous...</h3>
+            <p>Table of Contents Benefits of Oiling your hairThings to consider before purchasing a hair oilHow to...</p>
+            <div class="Healthreadmore">
+                <h3><a href="#"><span>Read More</span><span><i class="bi bi-chevron-right"></i></span></a></h3>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<!-- userdiv -->
+
+<div class="userdiv">
+    <div class="user">
+    <div class="userimg">
+      <img src="https://assets.pharmeasy.in/web-assets/dist/4d2f7c48.svg" alt="">
+    </div>
+    <div class="usercont">
+      <h1>25 Million</h1>
+      <p>Registered Users as of Jun <br>30, 2021</p>
+    </div>
+    </div>
+    <div class="user">
+    <div class="userimg userimg2">
+        <img src="https://assets.pharmeasy.in/web-assets/dist/92c372bb.svg" alt="">
+
+    </div>
+    <div class="usercont">
+        <h1>8.8 Million</h1>
+        <p>PharmEasy Orders as of <br> FY21</p>
+    </div>
+    </div>
+    <div class="user">
+    <div class="userimg userimg2">
+        <img src="https://assets.pharmeasy.in/web-assets/dist/773ae9c5.svg" alt="">
+
+    </div>
+    <div class="usercont">
+        <h1>50k+</h1>
+        <p>SKUs sold in Q1FY22</p>
+    </div>
+    </div>
+    <div class="user">
+    <div class="userimg userimg2">
+        <img src="https://assets.pharmeasy.in/web-assets/dist/f2d557d3.svg" alt="">
+
+    </div>
+    <div class="usercont">
+        <h1>18k+</h1>
+        <p>Pin-Codes Serviced for the month of June 2021</p>
+    </div>
+    </div>
+</div>
+<!-- What our customers have to say -->
+<div class="pinodesdiv">
+<div class="pinodeshead">
+    <div class="pinodeshead2">
+      <h2>What our customers have to say</h2>
+    </div>
+    <div class="pinodesheadarrow">
+        <span class="pincodeleftarrow"><i class="bi bi-arrow-left"></i></span>
+        <span class="pincoderightarrow"><i class="bi bi-arrow-right"></i></span>
+    </div>
+
+</div>
+    <div class="pinodesimgcont">
+        <div class="pinodesimg">
+            <div class="pincont">
+                <h3>Debanjan Roy</h3>
+                <h4>April 18, 2020</h4>
+            </div>
+            <div class="pinimg">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt="pharmeasy.img">
+            </div>
+            <div class="pincontent">
+                <p>Excellent experience. Pharmeasy has not let it's customers down during lockdown. Thanks team. Great job. The application is also very smooth. And does its job well with an attractive UI and easy to use features. Good job developer.</p>
+            </div>
+            </div>
+
+        <div class="pinodesimg pinodesimg2">
+            <div class="pincont">
+                <h3>Rajarshi Sarkar</h3>
+                <h4>April 22, 2020</h4>
+            </div>
+            <div class="pinimg">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt="pharmeasy.img">
+            </div>
+            <div class="pincontent">
+                <p>The app is really wonderful. Being a Product Manager myself, I would say that the User experience (UI/UX) of the app is top notch (easy to use, simple and convenient). Coming to services and delivery, I would say Pharmeasy is doing a tremendous job even during this unprecedented pandemic situation.</p>
+            </div>
+        </div>
+        <div class="pinodesimg pinodesimg2">
+            <div class="pincont">
+                <h3>Varun Sonagra</h3>
+                <h4>April 23, 2020</h4>
+            </div>
+            <div class="pinimg">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt="pharmeasy.img">
+            </div>
+            <div class="pincontent">
+                <p>I've had a good experience. The consultation with a doctor feature works well too. The prices and discounts are great too. Overall the simplicity of the app is a plus too. I recommend this app. Will always be a customer/user now! Genuinely!</p>
+            </div>
+        </div>
+            <div class="pinodesimg pinodesimg2">
+                <div class="pincont">
+                   <h3>Tirthankar Das Purkayastha</h3>
+                   <h4>April 23, 2020</h4>
+                </div>
+                <div class="pinimg">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/d29d41d8.svg" alt="pharmeasy.img">
+                </div>
+                <div class="pincontent">
+                 <p>Very good app. Would recommend it to everyone requiring fast and efficient delivery of medicinal products at the doorstep.</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="pinodesimg pinodesimg2"></div> -->
+    </div>
+</div>
+<!-- apps -->
+<div class="appdiv">
+    <div class="appcont">
+        <h1>Simplifying Healthcare, Impacting Lives</h1>
+        <h2>Download the App for free</h2>
+        <div class="applink">
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/4e4f1cab.png" alt="pharmeasy.img"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/83095c03.png" alt="pharmeasy.img"></a>
+        </div>
+    </div>
+    <div class="appimg">
+        <img src="https://assets.pharmeasy.in/web-assets/dist/1d1ccea7.jpg" alt="pharmeasy.img">
+    </div>
+</div>
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <footer>
+        <div class="footerdiv">
+         <div class="footerdiv2">
+          <ul class="footer-col">
+              <li class="foothead">Company</li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Partner with PharmEasy</a></li>
+              <li><a href="#">Sell at PharmEasy</a></li>
+          </ul>
+          <ul class="footer-col">
+            <li class="foothead">Featured Categories</li>
+            <li><a href="#">Featured Categories</a></li>
+            <li><a href="#">Covid Essentials</a></li>
+            <li><a href="#">Healthcare Devices</a></li>
+            <li><a href="#">Health Food and Drinks</a></li>
+            <li><a href="#">Personal Care</a></li>
+            <li><a href="#">Ayurvedic Care</a></li>
+        </ul>
+        <ul class="footer-col">
+            <li class="foothead">Need Help</li>
+            <li><a href="#">Browse All Medicines</a></li>
+            <li><a href="#">Browse All Molecules</a></li>
+            <li><a href="#">Browse All Cities & Areas</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+        <!-- <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul> -->
+        </div>
+        <div class="footerlink">
+            <h4>FOLLOW US</h4>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+
+        </div>
+    </div>
+    <div class="sociallinksdiv">
+        <div class="sociallinks">
+            <h2>Our Payment Partners</h2>
+            <a href="#" ><img src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt="pharmeasy.img" class="img1"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt="pharmeasy.img" class="img1"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt="pharmeasy.img" class="img1"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="pharmeasy.img" class="img2"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt="pharmeasy.img" class="img2"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg" alt="pharmeasy.img" class="img2"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg" alt="pharmeasy.img" class="img2"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt="pharmeasy.img" class="img2"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt="pharmeasy.img" class="img2"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt="pharmeasy.img" class="img1"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt="pharmeasy.img" class="img1"></a>
+            <a href="#"><img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt="pharmeasy.img" class="img2"></a>
+        </div>
+        <div class="copyright">&copy; 2022 PharmEasy. All Rights Reserved</div>
+
+    </div>
+     </footer>
+
+    </div>
+    <script>
+       function changeMode(){
+           var myBody=document.body;
+           myBody.classList.toggle('myDark');
+           if(  myBody.classList.contains('myDark')){
+              icon.src = "outline_light_mode_white_24dp.png"
+           }else{
+               icon.src = "outline_light_mode_black_24dp.png"
+           }
+       }
+       window.onload = loadCoupon()
+
+       function loadCoupon(){
+           document.getElementById('coupon').style.visibility='visible';
+        }
+        function del(){
+           document.getElementById('coupon').style.visibility= 'hidden';
+       }
+    </script>
+</body>
+</html>

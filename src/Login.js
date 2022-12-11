@@ -29,11 +29,11 @@ const Login = () => {
     }
 
     const handleSumit = async (e) => {
-        console.log("=>", e)
+        // console.log("=>", e)
         e.preventDefault()
         let item = { email, password }
-        console.warn("signup", item)
-        let result = await fetch("https://useapi.herokuapp.com/api/login", {
+        // console.warn("signup", item)
+        let result = await fetch("https://dull-plum-hippopotamus-belt.cyclic.app/api/login", {
             method: "POST",
             body: JSON.stringify(item),
             headers: {

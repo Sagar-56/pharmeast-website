@@ -34,15 +34,7 @@ const DealProducts = () => {
                         <span className='h3'>{Deals_discount}</span>
                     </div>
                     <div className="byn">
-                        <button type="submit" className="btn btn-success"
-                        // onClick={() =>
-                        // props.addToCartHandler(
-                        // {
-                        // price: item.deals_newPrice, name: item.deals_heading, disc: item.deals_discount
-                        // }
-                        // )
-                        // }
-                        >Add to Card</button>
+                        <button type="submit" className="btn btn-success">Add to Card</button>
                     </div>
                 </div>
             </div>

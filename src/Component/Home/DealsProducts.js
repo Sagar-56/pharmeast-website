@@ -1,19 +1,11 @@
 // @ts-nocheck
 import React from "react";
-// import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import './Deals.css';
 
 
 const DealsProducts = (props) => {
-    console.warn("props data", props.DealData)
-    // const products = useSelector((state) => state.allProducts.products)
-    // console.log("DealsProducts", products)
-    // const ourData=()=>{}
-
-
     const renderList = ({ DealData }) => {
-        // console.warn("deals_discount", DealData)
         if (DealData.length) {
             return DealData.map((item, index) => {
                 return (

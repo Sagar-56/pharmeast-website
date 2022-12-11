@@ -4,7 +4,8 @@ import './cashbackListing.css';
 import OffersDisplay from './OffersDisplay';
 
 
-const CUrl = "https://minodeapi.herokuapp.com/cashbackdetailsPage2?state_id="
+// const CUrl = "https://minodeapi.herokuapp.com/cashbackdetailsPage2?state_id="
+const CUrl = "https://good-gray-wombat-ring.cyclic.app/cashbackdetailsPage2?state_id="
 
 class offerListing extends Component {
     constructor(props) {

@@ -1,0 +1,372 @@
+[
+    {
+        "product_id":1,
+        "ProductName":"Coviself Covid Self Test Kit",
+        "oldPrice": "MRP ₹250.00",
+        "newPrice": "₹147.25",
+        "Discount": "41% OFF",
+        "state_id": 1,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/O70942/coviself-covid-self-test-kit-2-1644415093.jpg?dim=320x320&dpr=1&q=100"
+     },
+     {
+        "product_id":2,
+        "ProductName":"Covifind Covid-19 Rapid Antigen Self Test By Meril - Easy Self Test | Ai-powered | Result In 15 Min",
+        "oldPrice": "MRP ₹250.00",
+        "newPrice": "₹237.00",
+        "Discount": "5% OFF",
+        "state_id": 1,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/Z70690/covifind-covid-19-rapid-antigen-self-test-by-meril-easy-self-test-ai-powered-result-in-15-min-2-1641793544.jpg?dim=320x320&dpr=1&q=100"
+     },
+     {
+        "product_id":3,
+        "ProductName":"Panbio Covid Antigen Self Test 1 Test Kits Icmr Approved Test Results In 15 Mins",
+        "oldPrice": "MRP ₹325.00",
+        "newPrice": "₹292.00",
+        "Discount": "10% OFF",
+        "state_id": 1,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/G73773/kapiva-period-care-juice-1ltr-5-ayurvedic-herbs-to-combat-period-discomfort-menstrual-health-2-1641792555.jpg"
+     },
+     {
+        "product_id":4,
+        "ProductName":"Savlon Surface Disinfectant Spray 170g",
+        "oldPrice": "MRP ₹165.00",
+        "newPrice": "₹140.00",
+        "Discount": "15% OFF",
+        "state_id": 1,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/O26428/savlon-surface-disinfectant-spray-170g-2-1643879783.jpg?dim=320x320&dpr=1&q=100"
+     },
+     {
+        "product_id":5,
+        "ProductName":"Dettol Antiseptic Liquid Bottle Of 125 Ml",
+        "oldPrice": "MRP ₹80.00",
+        "newPrice": "₹60.00",
+        "Discount": "10% OFF",
+        "state_id": 1,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1652771119.jpg?dim=320x320&dpr=1&q=100"
+     },
+     {
+        "product_id":6,
+        "ProductName":"Dettol Liquid Disinfectant For Floor Cleaner, Surface Disinfection Personal Hygiene Lime Fresh 500ml",
+        "oldPrice": "MRP ₹193.00",
+        "newPrice": "₹169.00",
+        "Discount": "12% OFF",
+        "state_id": 1,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/I40097/dettol-liquid-disinfectant-for-floor-cleaner-surface-disinfection-personal-hygiene-lime-fresh-500ml-2-1643880438.jpg?dim=320x320&dpr=1&q=100"
+     },
+     {
+        "product_id":7,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/K70747/tri-activ-disinfectant-spray-for-multi-surfaces-70-alcohol-based-500ml-2-1643880388.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Tri-activ Disinfectant Spray For Multi-surfaces - 70% Alcohol Based - 230ml",
+        "oldPrice": "MRP 159.00",
+        "newPrice": "100.00",
+        "Discount": "37% OFF",
+        "state_id": 1
+     },
+    {
+        "product_id":8,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/207669/ensure-vanilla-nutrition-drink-refill-of-1-kg-1-1641263777.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Ensure Vanilla Nutrition Drink Refill Of 1 Kg",
+        "oldPrice": "MRP ₹1175.00",
+        "newPrice": "₹1116.25",
+        "Discount": "5% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":9,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/020560/baidyanath-chyawanprash-special-immunity-omniprotection-52-ayurvedic-ingredients-250g-2-1643882525.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Baidyanath Chyawanprash Special - Immunity & Omniprotection | 52 Ayurvedic Ingredients - 500g",
+        "oldPrice": "MRP ₹325.00",
+        "newPrice": "₹299.00",
+        "Discount": "8% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":10,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/264323/b-protin-chocolate-nutrition-supplement-bottle-of-500-g-2-1643884078.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"B-protin Chocolate Nutrition Supplement Bottle Of 500 G",
+        "oldPrice": "MRP ₹525.00",
+        "newPrice": "₹341.00",
+        "Discount": "35% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":11,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/P45322/jus-amazin-crunchy-organic-peanut-butter-with-sunflower-and-flax-seeds-200g-2-1641795798.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Jus Amazin Crunchy Organic Peanut Butter - Unsweetened (1kg) Clean Nutrition",
+        "oldPrice": "MRP ₹599.00",
+        "newPrice": "₹359..50",
+        "Discount": "40% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":12,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/368810/threptin-vanilla-butterscotch-nutrition-diskettes-tin-of-275-g-2-1643882800.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Threptin Vanilla Butterscotch Nutrition Diskettes Tin Of 275 Gl",
+        "oldPrice": "MRP ₹459.00",
+        "newPrice": "₹321.30",
+        "Discount": "30% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":13,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/G62192/liveasy-foods-chia-seeds-1634197685463-1650540822.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Liveasy Foods Healthy Seed Mix- Blend Of 6 Fibre Rich Healthy Seeds",
+        "oldPrice": "MRP ₹359.00",
+        "newPrice": "₹191.00",
+        "Discount": "45% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":14,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/169990/threptin-chocolate-nutrition-diskettes-tin-of-275-g-2-1643883520.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Threptin Chocolate Nutrition Diskettes Tin Of 275 G",
+        "oldPrice": "MRP 459.00",
+        "newPrice": "321.30",
+        "Discount": "30% OFF",
+        "state_id": 2
+     },
+     {
+        "product_id":15,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/273276/threptin-lite-vanilla-butterscotch-nutrition-diskettes-tin-of-275-g-2-1643882969.jpg",
+        "ProductName":"Threptin Lite Vanilla Butterscotch Nutrition Diskettes Tin Of 275 G",
+        "oldPrice": "MRP 1600.00",
+        "newPrice": "1120.15",
+        "Discount": "30% OFF",
+        "state_id": 2
+     },
+    {
+        "product_id":16,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/W50035/becozym-c-forte-strip-of-15-tablets-1-1632777265.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Becozym C Forte ( Vitamin B Complex + Biotin + Vitamin C )- Strip Of 15 Tablets",
+        "oldPrice": "MRP ₹25.00",
+        "newPrice": "₹22.25",
+        "Discount": "12% OFF",
+        "state_id": 3
+     },
+     {
+        "product_id":17,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/C58077/chicco-natural-feeling-manual-breast-pump-effective-gentle-expression-of-milk-bpa-free-2-1641791693.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Pigeon Manual Breast Pump - Basic Edition",
+        "oldPrice": "MRP ₹998.00",
+        "newPrice": "₹788.00",
+        "Discount": "21% OFF",
+        "state_id": 3
+     },
+     {
+        "product_id":18,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/D47230/everyuth-naturals-body-lotion-sun-care-berries-100ml-2-1641795165.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Everyuth Naturals Body Lotion Rejuvenating Flora 100ml",
+        "oldPrice": "MRP ₹125.00",
+        "newPrice": "₹106.00",
+        "Discount": "15% OFF",
+        "state_id": 3
+     },
+     {
+        "product_id":19,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/C58077/chicco-natural-feeling-manual-breast-pump-effective-gentle-expression-of-milk-bpa-free-2-1641791693.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Pigeon Manual Breast Pump - Basic Edition",
+        "oldPrice": "MRP ₹998.00",
+        "newPrice": "₹788..50",
+        "Discount": "21% OFF",
+        "state_id": 3
+     },
+     {
+        "product_id":20,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/Y13063/plush-all-natural-intimate-vaginal-wash-for-women-rich-tea-tree-oil-neem-extract--2-1647364300.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"V Wash Plus Intimate Wash Bottle Of 100 Ml",
+        "oldPrice": "MRP ₹180.00",
+        "newPrice": "₹138..50",
+        "Discount": "23% OFF",
+        "state_id": 3
+     },
+     {
+        "product_id":21,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/A27630/stayfree-drymax-ultra-all-nights-size-xl-sanitary-pads-packet-of-14-2-1641788466.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Stayfree Drymax Ultra All Nights Size Xl Sanitary Pads Packet Of 28",
+        "oldPrice": "MRP ₹350.00",
+        "newPrice": "₹308.30",
+        "Discount": "12% OFF",
+        "state_id": 3
+     },
+     {
+        "product_id":22,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/239997/luciara-cream-safe-guard-against-stretch-marks-50-g-1-1643884129.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Luciara Cream Safe-guard Against Stretch Marks - 50 G",
+        "oldPrice": "MRP ₹595.00",
+        "newPrice": "₹571.00",
+        "Discount": "4% OFF",
+        "state_id": 3
+     },
+     {
+      "product_id":23,
+      "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/V83240/liveasy-ortho-care-neck-support-comfortable-cervival-collar-medium-1-1641788693.jpg?dim=320x320&dpr=1&q=100",
+      "ProductName":"Liveasy Ortho Care Cock-up Wrist Splint Universal",
+      "oldPrice": "MRP ₹450.00",
+      "newPrice": "₹399.25",
+      "Discount": "10% OFF",
+      "state_id": 4
+   },
+   {
+      "product_id":24,
+      "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/I34550/gas-o-fast-active-jeera-antacid-sachet-of-5-g-2-1643880465.jpg?dim=320x320&dpr=1&q=100",
+      "ProductName":"Gas O Fast Active Jeera Antacid Sachet Of 5 G",
+      "oldPrice": "MRP ₹10.5",
+      "newPrice": "₹7.7",
+      "Discount": "3% OFF",
+      "state_id": 4
+   },
+   {
+      "product_id":25,
+      "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-2-1643882394.jpg?dim=320x320&dpr=1&q=100",
+      "ProductName":"Everherb Aloe Vera Juice With Pulp - Rejuvenates Skin & Hair - 1 Litre Bottle",
+      "oldPrice": "MRP ₹399.00",
+      "newPrice": "₹199.5 ",
+      "Discount": "50% OFF",
+      "state_id": 4
+   },
+   {
+      "product_id":26,
+      "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/E07416/dr-ortho-an-ayurvedic-medicine-oil-bottle-of-60-ml-2-1641789130.jpg?dim=320x320&dpr=1&q=100",
+      "ProductName":"Dr Ortho An Ayurvedic Medicine Oil Bottle Of 120 Ml",
+      "oldPrice": "MRP ₹295.00",
+      "newPrice": "₹236.00",
+      "Discount": "20% OFF",
+      "state_id": 4
+   },
+     {
+        "product_id":27,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/X02331/pigeon-breast-pads-comfy-feel-12-pcs-2-1643881019.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Pigeon Breast Pads Comfy Feel - 60 Pcs",
+        "oldPrice": "MRP ₹675.00",
+        "newPrice": "₹499.5",
+        "Discount": "26% OFF",
+        "state_id": 5
+     },
+     {
+        "product_id":28,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/C58077/chicco-natural-feeling-manual-breast-pump-effective-gentle-expression-of-milk-bpa-free-6.2-1641791697.jpg",
+        "ProductName":"Pigeon Manual Breast Pump - Basic Edition",
+        "oldPrice": "MRP ₹998.00",
+        "newPrice": "₹788.42",
+        "Discount": "21% OFF",
+        "state_id": 5
+     },
+     {
+        "product_id":29,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/226830/prega-news-pregnancy-test-kit-1-1641787797.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Prega News Pregnancy Test Kit",
+        "oldPrice": "MRP ₹55.00",
+        "newPrice": "₹33.00",
+        "Discount": "40% OFF",
+        "state_id": 5
+     },
+     {
+        "product_id":30,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/E35192/horlicks-junior-health-nutrition-drink-vanilla-500-g-jar-2-1643882909.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Horlicks Junior Health & Nutrition Drink Vanilla, 500 G Jar",
+        "oldPrice": "MRP ₹299.00",
+        "newPrice": "₹293.02",
+        "Discount": "2% OFF",
+        "state_id": 5
+     },
+     {
+        "product_id":31,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/X06591/superbottoms-freesize-uno-reusable-cloth-diaper-with-dry-feel-pads-set-lil-crush-2-1641793647.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Superbottoms Freesize Uno - Reusable Cloth Diaper With Dry Feel Pads Set - Ikat Chevron",
+        "oldPrice": "MRP ₹1198.00",
+        "newPrice": "₹886.50",
+        "Discount": "26% OFF",
+        "state_id": 5
+     },
+     {
+        "product_id":32,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/J24391/horlicks-mothers-plus-vanilla-refill-500-g-1-1641791163.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Horlicks Mother's Plus Vanilla Refill 200 G",
+        "oldPrice": "MRP ₹210.00",
+        "newPrice": "₹205.30",
+        "Discount": "2% OFF",
+        "state_id": 5
+     },
+     {
+        "product_id":33,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/D47230/everyuth-naturals-body-lotion-sun-care-berries-100ml-2-1641795165.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Everyuth Naturals Body Lotion Rejuvenating Flora 100ml",
+        "oldPrice": "MRP ₹125.00",
+        "newPrice": "₹106.25",
+        "Discount": "15% OFF",
+        "state_id": 6
+     },
+     {
+        "product_id":34,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-2-1645786251.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Venusia Max Intensive Moisturizing Lotion, Repairs Dry Skin, Provides Soft & Smooth Skin, 300gm",
+        "oldPrice": "MRP ₹601.5",
+        "newPrice": "₹403.42",
+        "Discount": "33% OFF",
+        "state_id": 6
+     },
+     {
+        "product_id":35,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-2-1645786243.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Venusia Max Intensive Moisturizing Cream, For Dry To Very Dry Skin, Repairs & Smoothens Skin, 150g",
+        "oldPrice": "MRP ₹504.00",
+        "newPrice": "₹337.68",
+        "Discount": "33% OFF",
+        "state_id": 6
+     },
+     {
+        "product_id":36,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/I07034/fash-x-gel-face-wash-200gm-2-1643881499.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Fash X Gel Face Wash 200gm",
+        "oldPrice": "MRP ₹475.00",
+        "newPrice": "₹308.75",
+        "Discount": "35% OFF",
+        "state_id": 6
+     },
+     {
+        "product_id":37,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/054560/dettol-original-germ-protection-bathing-soap-bar-125g-2-1648559090.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Dettol Original Germ Protection Bathing Soap Bar-buy 4 Get 1 Free - 125g Each",
+        "oldPrice": "MRP ₹260.00",
+        "newPrice": "₹241.8",
+        "Discount": "7% OFF",
+        "state_id": 6
+     },
+     {
+        "product_id":38,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/P45322/jus-amazin-crunchy-organic-peanut-butter-with-sunflower-and-flax-seeds-200g-2-1641795798.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Jus Amazin Crunchy Organic Peanut Butter - Unsweetened (1kg) Clean Nutrition",
+        "oldPrice": "MRP ₹610.00",
+        "newPrice": "₹599.25",
+        "Discount": "2% OFF",
+        "state_id": 7
+     },
+     {
+        "product_id":39,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/264359/d-protin-chocolate-diabetes-care-powder-500-g-2-1643883108.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"D - Protin Chocolate Diabetes Care Powder - 500 G",
+        "oldPrice": "MRP ₹578.5",
+        "newPrice": "₹375.7",
+        "Discount": "35% OFF",
+        "state_id": 7
+     },
+     {
+        "product_id":40,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-11-potent-ingredients-healthy-blood-sugar-management-1-litre-bottle-2-1643876715.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Everherb Diabetic Care Juice-11 Potent Ingredients -Healthy Blood Sugar Management - 1 Litre Bottle",
+        "oldPrice": "MRP ₹599.00",
+        "newPrice": "₹329.45",
+        "Discount": "45% OFF",
+        "state_id": 7
+     },
+     {
+        "product_id":41,
+        "ProductImage": "https://cdn01.pharmeasy.in/dam/products_otc/I13139/ensure-diabetes-care-vanilla-diabetes-care-powder-jar-of-400-g-2-1647863525.jpg?dim=320x320&dpr=1&q=100",
+        "ProductName":"Ensure Diabetes Care Vanilla Diabetes Care Powder Jar Of 400 G",
+        "oldPrice": "MRP ₹725.00",
+        "newPrice": "₹667.00",
+        "Discount": "8% OFF",
+        "state_id": 7
+     }
+
+]

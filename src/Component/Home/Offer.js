@@ -7,7 +7,8 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
-let Url = "https://minodeapi.herokuapp.com/cashbackdetails"
+// let Url = "https://minodeapi.herokuapp.com/cashbackdetails"
+let Url ="https://good-gray-wombat-ring.cyclic.app/cashbackdetails"
 
 class Offer extends Component {
 

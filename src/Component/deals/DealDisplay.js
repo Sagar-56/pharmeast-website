@@ -1,9 +1,5 @@
 // @ts-nocheck
 import React, { useEffect, useState } from "react";
-// import { useSelector } from "react-redux";
-// import { connect } from 'react-redux'
-// import { addToCart } from "../../redux/Action/Action";
-// import cardItems from "../../redux/Reducer/reducer";
 import DoneAllIcon from '@mui/icons-material/DoneAll';
 
 
@@ -108,13 +104,4 @@ const [isCartSuccess, setIsCartSuccess] = useState(false)
     )
 }
 
-// const mapStateToProps = (state) => ({
-// data: state.cardItems
-// })
-// 
-// const mapDispatchToProps = (dispatch) => ({
-// addToCardHandler: (data) => dispatch(addToCart(data))
-// })
-// 
-// export default connect(mapStateToProps, mapDispatchToProps)(DealDisplay)
 export default DealDisplay;

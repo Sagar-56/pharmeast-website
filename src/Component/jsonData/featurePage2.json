@@ -1,0 +1,300 @@
+[
+    {
+        "feature_id": 1,
+        "state_id": 2,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/Q56745/standard-horlicks-1kg-plastic-container-2-1641790588.jpg",
+        "product_name": "Standard Horlicks 1kg Plastic Container",
+        "feature_oldPrice": "₹485.00",
+        "feature_newPrice": "₹431.65",
+        "feature_discount": "11% OFF"
+    },
+    
+    {
+        "feature_id": 2,
+        "state_id": 2,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I04904/horlicks-health-nutrition-drink-chocolate-gusseted-pouch-750-g-2-1649248183.jpg",
+        "product_name": "Horlicks Health & Nutrition Drink, Chocolate, Gusseted Pouch 750 G",
+        "feature_oldPrice": "₹320.00",
+        "feature_newPrice": "₹284.80",
+        "feature_discount": "11% OFF"
+    },
+    
+    {
+        "feature_id": 3,
+        "state_id": 2,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I04903/horlicks-health-nutrition-drink-pouch-750-g-2-1643882590.jpg",
+        "product_name": "Horlicks Health & Nutrition Drink Pouch, 750 G",
+        "feature_oldPrice": "₹350.00",
+        "feature_newPrice": "₹350.00",
+        "feature_discount": "9% OFF"
+    },
+    
+    {
+        "feature_id": 4,
+        "state_id": 2,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/W77762/horlicks-womens-plus-caramel-box-750-g-1-1641791251.jpg",
+        "product_name": "Horlicks Women's Plus Caramel Box, 750 G",
+        "feature_oldPrice": "₹565.00",
+        "feature_newPrice": "₹525.45",
+        "feature_discount": "7% OFF"
+    },
+    
+    {
+        "feature_id": 5,
+        "state_id": 2,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/G19410/horlicks-diabetes-plus-vanilla-400-g-jar-2-1644217380.jpg",
+        "product_name": "Horlicks Diabetes Plus Vanilla 400 G Jar",
+        "feature_oldPrice": "₹680.00",
+        "feature_newPrice": "₹652.80",
+        "feature_discount": "4% OFF"
+    },
+    
+    {
+        "feature_id": 6,
+        "state_id": 1,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/S66246/dettol-disinfectant-sanitizer-wet-wipes-for-skin-surfaces-original-80-count-2-1643876918.jpg",
+        "product_name": "Dettol Disinfectant Sanitizer Wet Wipes For Skin & Surfaces, Original - 80 Count",
+        "feature_oldPrice": "₹219.00",
+        "feature_newPrice": "₹175.20",
+        "feature_discount": "40% OFF"
+    },
+    
+    {
+        "feature_id": 7,
+        "state_id": 1,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/R98891/dettol-liquid-disinfectant-for-floor-cleaner-surface-disinfection-lavender-blossom-1l-2-1651745424.jpg",
+        "product_name": "Dettol Liquid Disinfectant For Floor Cleaner, Surface Disinfection - Lavender Blossom - 1l",
+        "feature_oldPrice": "₹347.00",
+        "feature_newPrice": "₹277.60",
+        "feature_discount": "20% OFF"
+    },
+    
+    {
+        "feature_id": 8,
+        "state_id": 1,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/O35200/dettol-disinfectant-sanitizer-spray-bottle-spring-blossom-225ml-2-1643888645.jpg",
+        "product_name": "Dettol Disinfectant Sanitizer Spray Bottle -spring Blossom, 225ml)",
+        "feature_oldPrice": "₹159.00",
+        "feature_newPrice": "₹127.20",
+        "feature_discount": "20% OFF"
+    },
+    
+    {
+        "feature_id": 9,
+        "state_id": 1,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/O12901/dettol-liquid-disinfectant-for-floor-cleaner-surface-disinfection-personal-hygiene-lime-fresh-1000ml-2-1641789202.jpg",
+        "product_name": "Dettol Liquid Disinfectant For Floor Cleaner Surface Disinfection Personal Hygiene Lime Fresh 1000ml",
+        "feature_oldPrice": "₹347.00",
+        "feature_newPrice": "₹277.60",
+        "feature_discount": "20% OFF"
+    },
+    
+    {
+        "feature_id": 10,
+        "state_id": 4,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/U58783/liveasy-wellness-immunity-pro-vitamin-c-zinc-with-herbal-immunity-blend-60-tablets-2-1643876968.jpg?dim=320x320&dpr=1&q=100",
+        "product_name": "Liveasy Wellness Immunity Pro - Vitamin C & Zinc - With Herbal Immunity Blend - 60 Tablets",
+        "feature_oldPrice": "₹799",
+        "feature_newPrice": "₹279.65",
+        "feature_discount": "65% OFF"
+    },
+    
+    {
+        "feature_id": 11,
+        "state_id": 4,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/J51815/liveasy-wellness-apple-cider-vinegar-with-mother-improves-metabolism-500ml-bottle-2-1643880237.jpg",
+        "product_name": "Liveasy Wellness Apple Cider Vinegar With Mother -Improves Metabolism- 500ml Bottle",
+        "feature_oldPrice": "₹649",
+        "feature_newPrice": "₹227.15",
+        "feature_discount": "65% OFF"
+    },
+    {
+        "feature_id": 12,
+        "state_id": 4,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/E85132/liveasy-wellness-vitamin-c-990mg-with-zinc-10mg-powerful-immunity-booster-60-veg-tablets-2-1643882980.jpg",
+        "product_name": "Liveasy Wellness Vitamin C (990mg) With Zinc (10mg) - Powerful Immunity Booster - 60 Veg Tablets",
+        "feature_oldPrice": "₹799",
+        "feature_newPrice": "₹279.65",
+        "feature_discount": "65% OFF"
+    },
+    {
+        "feature_id": 13,
+        "state_id": 4,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/T05643/liveasy-wellness-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-2-1641794532.jpg",
+        "product_name": "Liveasy Wellness Joint Support - Maintains Joints Mobility - Bone & Joint Health - Bottle Of 60",
+        "feature_oldPrice": "₹799",
+        "feature_newPrice": "₹399.5",
+        "feature_discount": "50% OFF"
+    },
+    {
+        "feature_id": 14,
+        "state_id": 5,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/124293/nivea-body-milk-lotion-400ml-2-1641398951.jpg",
+        "product_name": "Nivea Body Milk Lotion 400ml",
+        "feature_oldPrice": "₹399",
+        "feature_newPrice": "₹215.46",
+        "feature_discount": "46% OFF"
+    },
+    {
+        "feature_id": 15,
+        "state_id": 5,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I41687/nivea-soft-light-moisturizer-bottle-of-100-ml-2-1641788273.jpg?dim=320x320&dpr=1&q=100",
+        "product_name": "Nivea Soft Light Moisturizer Bottle Of 100 Ml",
+        "feature_oldPrice": "₹159",
+        "feature_newPrice": "₹87.45",
+        "feature_discount": "45% OFF"
+    },
+    {
+        "feature_id": 16,
+        "state_id": 5,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I40912/nivea-cocoa-nourish-body-lotion-bottle-of-400-ml-2-1643880626.jpg",
+        "product_name": "Nivea Cocoa Nourish Body Lotion Bottle Of 400 Ml",
+        "feature_oldPrice": "₹215.04",
+        "feature_newPrice": "₹384",
+        "feature_discount": "44% OFF"
+    },
+    {
+        "feature_id": 17,
+        "state_id": 5,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/124345/nivea-creme-moisturizer-jar-of-100-ml-2-1641398683.jpg",
+        "product_name": "Nivea Creme Moisturizer Jar Of 100 Ml",
+        "feature_oldPrice": "₹111.44",
+        "feature_newPrice": "₹199",
+        "feature_discount": "44% OFF"
+    },
+    {
+        "feature_id": 18,
+        "state_id": 5,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I40907/nivea-smooth-milk-with-shea-butter-bottle-of-200-ml-2-1641788136.jpg?dim=320x320&dpr=1&q=100",
+        "product_name": "Nivea Shea Smooth Body Milk Lotion - 75 Ml",
+        "feature_oldPrice": "₹485.00",
+        "feature_newPrice": "₹431.65",
+        "feature_discount": "11% OFF"
+    },
+    {
+        "feature_id": 19,
+        "state_id": 1,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/Q56745/standard-horlicks-1kg-plastic-container-2-1641790588.jpg",
+        "product_name": "Nivea Smooth Milk With Shea Butter Bottle Of 200 Ml",
+        "feature_oldPrice": "₹275",
+        "feature_newPrice": "₹159.5",
+        "feature_discount": "42% OFF"
+    },
+    {
+        "feature_id": 20,
+        "state_id": 8,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I35532/volini-maxx-pain-relief-spray-25-gm-2-1643880827.jpg",
+        "product_name": "Volini Maxx Pain Relief Spray Bottle Of 25g",
+        "feature_oldPrice": "₹99",
+        "feature_newPrice": "₹882.17",
+        "feature_discount": "17% OFF"
+    },
+    {
+        "feature_id": 21,
+        "state_id": 8,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/I37838/volini-maxx-pain-relief-gel-tube-of-30-g-2-1641787993.jpg?dim=320x320&dpr=1&q=100",
+        "product_name": "Volini Maxx Pain Relief Gel Tube Of 30 G",
+        "feature_oldPrice": "₹149",
+        "feature_newPrice": "₹123.67",
+        "feature_discount": "17% OFF"
+    },
+    {
+        "feature_id": 22,
+        "state_id": 8,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/183151/volini-pain-relief-gel-tube-of-50-g-1-1641398799.jpg?dim=320x320&dpr=1&q=100",
+        "product_name": "Volini Pain Relief Gel Tube Of 50 G",
+        "feature_oldPrice": "₹180",
+        "feature_newPrice": "₹149.4",
+        "feature_discount": "17% OFF"
+    },
+    {
+        "feature_id": 23,
+        "state_id": 8,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/W89200/volini-joint-xpert-20-gm-gel-2-1641790476.jpg?dim=320x320&dpr=1&q=100",
+        "product_name": "Volini Joint Xpert Pain Relief Gel Tube Of 20 Gm",
+        "feature_oldPrice": "₹89",
+        "feature_newPrice": "₹73.87",
+        "feature_discount": "17% OFF"
+    },
+    {
+        "feature_id": 24,
+        "state_id": 9,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/F14789/everherb-diabetic-care-blood-sugar-control-bottle-of-60-2-1643882000.jpg",
+        "product_name": "Everherb Diabetic Care - Blood Sugar Control - Bottle Of 60",
+        "feature_oldPrice": "₹999",
+        "feature_newPrice": "₹499.5",
+        "feature_discount": "50% OFF"
+    },
+    {
+        "feature_id": 25,
+        "state_id": 9,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/Q56745/standard-horlicks-1kg-plastic-container-2-1641790588.jpg",
+        "product_name": "Standard Horlicks 1kg Plastic Container",
+        "feature_oldPrice": "₹485.00",
+        "feature_newPrice": "₹431.65",
+        "feature_discount": "11% OFF"
+    },
+    {
+        "feature_id": 26,
+        "state_id": 9,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/U61399/everherb-eucalyptus-oil-nilgiri-oil-1-1643876656.jpg",
+        "product_name": "Everherb Eucalyptus Oil (Nilgiri Oil)",
+        "feature_oldPrice": "₹649",
+        "feature_newPrice": "₹259.6",
+        "feature_discount": "60% OFF"
+    },
+    {
+        "feature_id": 27,
+        "state_id": 9,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/H62199/everherb-moringa-drum-stick-immunity-booster-capsules-natural-multivitamin-bottle-of-60-2-1641788912.jpg",
+        "product_name": "Everherb Moringa (Drum Stick) - Immunity Booster Capsules - Natural Multivitamin - Bottle Of 60",
+        "feature_oldPrice": "₹599",
+        "feature_newPrice": "₹239.6",
+        "feature_discount": "60% OFF"
+    },
+    {
+        "feature_id": 28,
+        "state_id": 9,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/P64513/everherb-noni-juice-with-garcinia-ashwagandha-detoxify-your-lungs-1l-2-1643877111.jpg",
+        "product_name": "Everherb Noni Juice With Garcinia& Ashwagandha- Detoxify Your Lungs - 1l",
+        "feature_oldPrice": "₹699",
+        "feature_newPrice": "₹349.5",
+        "feature_discount": "50% OFF"
+    },
+    {
+        "feature_id": 29,
+        "state_id": 12,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/K13896/plum-bodylovin-vanilla-vibes-eau-de-parfum-15-ml-15-ml-2-1653112016.jpg",
+        "product_name": "Plum Bodylovin' Vanilla Vibes Eau De Parfum (15 Ml) - 15 Ml",
+        "feature_oldPrice": "₹295",
+        "feature_newPrice": "₹206.5",
+        "feature_discount": "30% OFF"
+    },
+    {
+        "feature_id": 30,
+        "state_id": 12,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/B85632/plum-choco-latte-nourishing-souffle-mask-100gm-2-1653111963.jpg",
+        "product_name": "Plum Choco Latte Nourishing Souffle Mask - 100gm",
+        "feature_oldPrice": "₹675",
+        "feature_newPrice": "₹472.5",
+        "feature_discount": "30% OFF"
+    },
+    {
+        "feature_id": 31,
+        "state_id": 12,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/J99621/plum-candy-melts-vegan-lip-balm-mint-o-coco-12-gm-2-1649767411.jpg",
+        "product_name": "Plum Candy Melts Vegan Lip Balm | Mint-O-Coco- 12 Gm",
+        "feature_oldPrice": "₹295",
+        "feature_newPrice": "₹227.15",
+        "feature_discount": "23% OFF"
+    },
+    {
+        "feature_id": 32,
+        "state_id": 12,
+        "feature_image": "https://cdn01.pharmeasy.in/dam/products_otc/Y14812/plum-e-luminence-simply-supple-cleansing-balm-90-gm-2-1649766444.jpg",
+        "product_name": "Plum E-Luminence Simply Supple Cleansing Balm- 90 Gm",
+        "feature_oldPrice": "₹545",
+        "feature_newPrice": "₹419.65",
+        "feature_discount": "23% OFF"
+    }
+]

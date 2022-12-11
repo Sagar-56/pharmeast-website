@@ -1,0 +1,44 @@
+[
+    {
+        "cashback_id":1,
+        "cashback_thumb": "https://cms-contents.pharmeasy.in/offer/f8bf7f78e45-25100.jpg",
+        "cashback_coupon": "GRAND25",
+        "state_id":1,
+        "cashback_head": "Flat 25% off + up to Rs.1000 cashback"
+    },
+    {
+        "cashback_id":2,
+        "cashback_thumb": "https://cms-contents.pharmeasy.in/offer/df070d160cc-Logo_PE_PE_PE.png",
+        "cashback_coupon": "Code Not Required",
+        "state_id":2,
+        "cashback_head": "FLAT 18% Off on all medicine orders."
+    },
+    {
+        "cashback_id":3,
+        "cashback_thumb": "https://cms-contents.pharmeasy.in/offer/823d606af82-sarva_logo.jpg",
+        "cashback_coupon": "SARVA",
+        "state_id":3,
+        "cashback_head": "Get 3-months complimentary membership to the SARVA app"
+    },
+    {
+        "cashback_id":4,
+        "cashback_thumb": "https://cms-contents.pharmeasy.in/offer/6a4f1adb904-POcket_Logo.jpg",
+        "cashback_coupon": "MED25",
+        "state_id":4,
+        "cashback_head": "Flat 25% off + up to Rs.5000 cashback"
+    },
+    {
+        "cashback_id":5,
+        "cashback_thumb": "https://cms-contents.pharmeasy.in/offer/4db0adda6b1-40.jpg",
+        "cashback_coupon": "MEDI40",
+        "state_id":5,
+        "cashback_head": "Flat 20% off + 20% cashback on your 1st medicine order"
+    },
+    {
+        "cashback_id":6,
+        "cashback_thumb": "https://cms-contents.pharmeasy.in/offer/8cdf65ac110-mobiwiklogo.png",
+        "cashback_coupon": "Code Not Required",
+        "state_id":6,
+        "cashback_head": "Get up to ₹500 cashback via Mobikwik. Use code MBK500 on Mobikiwik"
+    }
+]

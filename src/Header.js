@@ -11,10 +11,8 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 
 import BarChartIcon from '@mui/icons-material/BarChart';
-import { IconButton } from "@mui/material";
 
 const Header = (props) => {
-    // console.log("parent", props)
     const [isNav, setIsNav] = useState(false)
     const [isClosing, setIsClosing] = useState(false)
 
@@ -32,7 +30,6 @@ const Header = (props) => {
     const handleClosing = (e) => {
         e.preventDefault()
         setIsNav(!isNav)
-        // setAnchorEl(null);
         e.target.style.transition = "0.3s"
     };
 

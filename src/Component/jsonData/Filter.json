@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "Quality": "Popularity",
+        "state_id": 1  
+    },
+    {
+        "id":2,
+        "Quality": "High to Low",
+        "state_id": 2  
+    },
+    {
+        "id":3,
+        "Quality": "Low to High",
+        "state_id": 3  
+    },
+    {
+        "id":4,
+        "Quality": "Recommended",
+        "state_id": 4  
+    }
+
+]

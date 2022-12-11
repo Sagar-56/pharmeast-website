@@ -8,8 +8,8 @@ import DealsProducts from "./DealsProducts";
 
 
 const DealsDisplay = () => {
-    const products = useSelector((state) => state)
-    console.log("dealsDisplay", products)
+    // const products = useSelector((state) => state)
+    // console.log("dealsDisplay", products)
 
     const dispatch = useDispatch();
 

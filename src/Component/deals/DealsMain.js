@@ -3,9 +3,11 @@ import './DealsMain.css';
 import DealDisplay from "./DealDisplay";
 import axios from "axios";
 import { connect } from 'react-redux'
-import { addToCart } from "../../redux/Action/Action"; 
+import { addToCart } from "../../redux/Action/Action";
 
-const DealsUrl = "https://minodeapi.herokuapp.com/DealsPage2?state_id="
+
+// const DealsUrl = "https://minodeapi.herokuapp.com/DealsPage2?state_id="
+const DealsUrl = "https://good-gray-wombat-ring.cyclic.app/DealsPage2?state_id="
 
 class DealsMain extends Component {
 
@@ -16,7 +18,6 @@ class DealsMain extends Component {
             DealsName: '',
             product: props,
         }
-        // console.warn("addtocart", this.state.product)
 
     }
 
@@ -35,12 +36,12 @@ class DealsMain extends Component {
     }
 
     componentDidMount = async () => {
-        let stateId = await this.props.match.params.id ? this.props.match.params.id : 1
-        sessionStorage.setItem('stateId', stateId)
-        axios.get(`${DealsUrl}${stateId}`)
-            .then((res) => {
-                this.setState({ DealsName: res.data })
-            })  
+    let stateId = await this.props.match.params.id ? this.props.match.params.id : 1
+    sessionStorage.setItem('stateId', stateId)
+    axios.get(`${DealsUrl}${stateId}`)
+    .then((res) => {
+    this.setState({ DealsName: res.data })
+    })  
     }
 
 

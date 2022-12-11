@@ -1,0 +1,606 @@
+[
+    {
+        "Product_id":1,
+        "Product_Name":"Coviself Covid Self Test Kit",
+        "Old_Price": "MRP ₹250.00",
+        "New_Price": "₹147.25",
+        "Discount": "41% OFF",
+        "State_id": 1,
+        "Product_image":[
+            "https://i.ibb.co/HpTTH9r/covid-19.png",
+             "https://i.ibb.co/ctVPwSR/i1.png", 
+             "https://i.ibb.co/gP5b5JB/a2.png",
+             "https://i.ibb.co/8DFnjKr/a3.png"
+        ]
+    },
+    {
+        "Product_id":2,
+        "Product_Name":"Covifind Covid-19 Rapid Antigen Self Test By Meril - Easy Self Test | Ai-powered | Result In 15 Min",
+        "Old_Price": "MRP ₹250.00",
+        "New_Price": "₹237.00",
+        "Discount": "5% OFF",
+        "State_id": 1,
+        "Product_image":[
+             "https://i.ibb.co/1b9NjDS/covid7.png",
+             "https://i.ibb.co/71xcjBV/a4.png",
+             "https://i.ibb.co/ssPB4rR/a5.png",
+             "https://i.ibb.co/gDkKpk0/a6.png"
+            ]
+     },
+     {
+        "Product_id":3,
+        "Product_Name":"Panbio Covid Antigen Self Test 1 Test Kits Icmr Approved Test Results In 15 Mins",
+        "Old_Price": "MRP ₹325.00",
+        "New_Price": "₹292.00",
+        "Discount": "10% OFF",
+        "State_id": 1,
+        "package_size":[
+         {
+            "p_id":1,
+            "package_size": "1 NO'S",
+            "package_cost":"₹150.00"
+            
+         },
+         {
+            "p_id":1,
+            "package_size":"4 NO'S",
+            "package_cost":"₹200.00"
+         } ,
+         {
+            "p_id":1,
+            "package_size": "10 NO'S",
+            "package_cost":"₹250.00"
+
+         },
+         {
+            "p_id":1,
+            "package_size4": "20 NO'S",
+            "package_cost":"₹350.00"
+
+         }
+        ],
+
+        "Product_image":[
+             "https://i.ibb.co/DwL1CTn/covid3.png",
+             "https://i.ibb.co/8rpVkMw/a7.png",
+             "https://i.ibb.co/r5Wbw4j/aa1.png",
+             "https://i.ibb.co/RhgfNvh/a8.png"
+        ]
+     },
+     {
+        "Product_id":4,
+        "Product_Name":"Savlon Surface Disinfectant Spray 170g",
+        "Old_Price": "MRP ₹165.00",
+        "New_Price": "₹140.00",
+        "Discount": "15% OFF",
+        "State_id": 1,
+        "Product_image": [
+            "https://i.ibb.co/tYzVxK3/covid4.png",
+            "https://i.ibb.co/4JdZDwM/a9.png",
+            "https://i.ibb.co/4mXZgjn/a11-copy.png",
+            "https://i.ibb.co/D7w6t2F/a12.png"
+        ]
+     },
+     {
+        "Product_id":5,
+        "Product_Name":"Dettol Antiseptic Liquid Bottle Of 125 Ml",
+        "Old_Price": "MRP ₹80.00",
+        "New_Price": "₹60.00",
+        "Discount": "10% OFF",
+        "State_id": 1,
+        "package_size":[
+         {
+            "p_id":2,
+            "package_size":  "60 ML",
+            "package_cost":"₹50.00"
+            
+         },
+         {
+            "p_id":2,
+            "package_size": "125 ML",
+            "package_cost":"₹80.00"
+         } ,
+         {
+            "p_id":2,
+            "package_size":"250 ML",
+            "package_cost":"₹90.00"
+
+         },
+         {
+            "p_id":2,
+            "package_size4":"550 ML",
+            "package_cost":"₹95.00"
+
+         }
+        ],
+        "Product_image": [
+            "https://i.ibb.co/b7PJhb3/covid5.png",
+            "https://i.ibb.co/KVXGhLS/aa3-copy.png",
+            "https://i.ibb.co/FXbGSwJ/aa4.png",
+            "https://i.ibb.co/6WGfMQt/aa5.png"
+        ]
+     },
+     {
+        "Product_id":6,
+        "Product_Name":"Dettol Liquid Disinfectant For Floor Cleaner, Surface Disinfection Personal Hygiene Lime Fresh 500ml",
+        "Old_Price": "MRP ₹193.00",
+        "New_Price": "₹169.00",
+        "Discount": "12% OFF",
+        "State_id": 1,
+        "package_size":[
+         {
+            "p_id":3,
+            "package_size":  "60 ML", 
+            "package_cost":"₹150.00"
+            
+         },
+         {
+            "p_id":3,
+            "package_size": "125 ML",
+            "package_cost":"₹200.00"
+         } ,
+         {
+            "p_id":3,
+            "package_size": "250 ML",
+            "package_cost":"₹250.00"
+
+         },
+         {
+            "p_id":3,
+            "package_size4":"550 ML",
+            "package_cost":"₹350.00"
+
+         }
+        ],
+        "flavor":[
+           {
+            "flavor_id":1,
+            "flavor_name":"LIME & LEMON",
+            "flavor_cost":"₹190.00"
+
+           },
+           {
+            "flavor_id":2,
+            "flavor_name":"MENTHOL COOL",
+            "flavor_cost":"₹170.00"
+         }
+        ],
+        "Product_image": [
+            "https://i.ibb.co/VQZ9jk6/covid6.png",
+            "https://i.ibb.co/WfFJMzZ/aa6.png",
+            "https://i.ibb.co/M27CLzf/aa9-copy.png",
+            "https://i.ibb.co/2gLS3Q4/aa7.png"
+        ]
+     },
+     {
+        "Product_id":7,
+        "Product_Name":"Tri-activ Disinfectant Spray For Multi-surfaces - 70% Alcohol Based - 230ml",
+        "Old_Price": "MRP 159.00",
+        "New_Price": "100.00",
+        "Discount": "37% OFF",
+        "State_id": 1,
+        "flavor":[
+         {
+         "flavor_id":1,
+         "flavor_name": "LEMON",
+          "flavor_cost":"₹190.00"
+
+         },
+         {
+          "flavor_id":5,
+          "flavor_name":"NOT APPLICABLE"
+       }
+        ],
+        "package_size":[
+         {
+            "p_id":4,
+            "package_size": "100 ML",
+            "package_cost":"₹150.00"
+            
+         },
+         {
+            "p_id":4,
+            "package_size": "200 ML",
+            "package_cost":"₹200.00"
+         } ,
+         {
+            "p_id":4,
+            "package_size": "500 ML",
+            "package_cost":"₹250.00"
+
+         }
+        ],
+        "Product_image": [
+            "https://i.ibb.co/tYzVxK3/covid4.png",
+            "https://i.ibb.co/tmfKJWL/aaa1.png",
+            "https://i.ibb.co/Tmmv4Fh/aaa2.png",
+            "https://i.ibb.co/q0ZYCYR/aaa3.png"
+        ]
+     },
+    {
+        "Product_id":8,
+        "Product_Name":"Ensure Vanilla Nutrition Drink Refill Of 1 Kg",
+        "Old_Price": "MRP ₹1175.00",
+        "New_Price": "₹1116.25",
+        "Discount": "5% OFF",
+        "State_id": 2,
+        "flavor":[
+         {
+            "flavor_id":3,
+            "flavor_name": "CHOCOLATE",
+            "flavor_cost":"₹1390.00"
+
+         },
+         {
+          "flavor_id":4,
+          "flavor_name":"VANILLA",
+          "flavor_cost":"₹1470.00"
+         }
+          ],
+     "package_size":[
+      {
+         "p_id":5,
+         "package_size": "200 G",
+         "package_cost":"₹1550.00"
+         
+      },
+      {
+         "p_id":5,
+         "package_size": "400 G", 
+         "package_cost":"₹1600.00"
+      } ,
+      {
+         "p_id":5,
+         "package_size": "1000 G",
+         "package_cost":"₹2250.00"
+      }
+        ],
+        "Product_image": [
+            "https://i.ibb.co/C9CTvq4/health1.png",
+            "https://i.ibb.co/52hkC0V/aa11.png",
+            "https://i.ibb.co/kJyLSY6/aa12.png",
+            "https://i.ibb.co/vqV12Py/aa13.png"
+        ]
+
+     },
+     {
+        "Product_id":9,
+        "Product_Name":"Baidyanath Chyawanprash Special - Immunity & Omniprotection | 52 Ayurvedic Ingredients - 500g",
+        "Old_Price": "MRP ₹325.00",
+        "New_Price": "₹299.00",
+        "Discount": "8% OFF",
+        "State_id": 2,
+        "package_size":[
+         {
+            "p_id":26,
+            "package_size": "200 G",
+            "package_cost":"₹180.00"
+            
+         },
+         {
+            "p_id":26,
+            "package_size": "400 G", 
+            "package_cost":"₹280.00"
+         } ,
+         {
+            "p_id":26,
+            "package_size": "1000 G",
+            "package_cost":"₹350.00"
+         }
+        ],
+        "Product_image": [
+            "https://i.ibb.co/sszNnt0/health2.png",
+            "https://i.ibb.co/v1958ZG/aa14.png",
+            "https://i.ibb.co/C1nLD5v/aa15.png",
+            "https://i.ibb.co/C1nLD5v/aa15.png"
+        ]
+     },
+     {
+        "Product_id":10,
+        "Product_Name":"B-protin Chocolate Nutrition Supplement Bottle Of 500 G",
+        "Old_Price": "MRP ₹525.00",
+        "New_Price": "₹341.00",
+        "Discount": "35% OFF",
+        "State_id": 2,
+        "Product_image": [
+           "https://i.ibb.co/GnGYGcH/health31.png",
+           "https://i.ibb.co/VYLmhWN/aa16.png",
+           "https://i.ibb.co/PWpQghg/aa17.png",
+           "https://i.ibb.co/HC6sV2n/aa18.png"
+        ]
+     },
+     {
+        "Product_id":11,
+        "Product_Name":"Jus Amazin Crunchy Organic Peanut Butter - Unsweetened (1kg) Clean Nutrition",
+        "Old_Price": "MRP ₹599.00",
+        "New_Price": "₹359..50",
+        "Discount": "40% OFF",
+        "State_id": 2,
+        "Product_image": [
+           "https://i.ibb.co/Kbw5PHt/health4.png",
+           "https://i.ibb.co/HXgdWdY/aaa4.png",
+           "https://i.ibb.co/BK2KkqT/aaa5.png",
+           "https://i.ibb.co/9Gdw6Rr/aaa6.png"
+        ]
+     },
+     {
+        "Product_id":12,
+        "Product_Name":"Threptin Vanilla Butterscotch Nutrition Diskettes Tin Of 275 Gl",
+        "Old_Price": "MRP ₹459.00",
+        "New_Price": "₹321.30",
+        "Discount": "30% OFF",
+        "State_id": 2,
+        "Product_image": "https://i.ibb.co/X7T3PzR/health5.png"
+     },
+     {
+        "Product_id":13,
+        "Product_Name":"Liveasy Foods Healthy Seed Mix- Blend Of 6 Fibre Rich Healthy Seeds",
+        "Old_Price": "MRP ₹359.00",
+        "New_Price": "₹191.00",
+        "Discount": "45% OFF",
+        "State_id": 2,
+        "Variants":[
+           {
+           "variant_id":1,
+           "variant_name": "RAW CHIA SEED",
+           "variant_cost":"₹410.00"
+           },
+           {
+           "variant_id":2,
+           "variant_name": "RAW MIX SEED",
+           "variant_cost":"₹191.00"
+            },
+            {
+            "variant_id":3,
+            "variant_name": "ROASTED MIX SEED",
+            "variant_cost":"₹280.00"
+            }
+        ],
+        "Product_image": [
+           "https://i.ibb.co/GCPjtfT/health6.png",
+           "https://i.ibb.co/xs38kz4/aaa8.png",
+           "https://i.ibb.co/rGC4ysB/aaa7.png",
+           "https://i.ibb.co/rGC4ysB/aaa7.png"
+        ]
+     },
+     {
+        "Product_id":14,
+        "Product_Name":"Threptin Chocolate Nutrition Diskettes Tin Of 275 G",
+        "Old_Price": "MRP 459.00",
+        "New_Price": "321.30",
+        "Discount": "30% OFF",
+        "State_id": 2,
+        "Product_image": "https://i.ibb.co/X7T3PzR/health5.png"
+     },
+     {
+        "Product_id":15,
+        "Product_Name":"Threptin Lite Vanilla Butterscotch Nutrition Diskettes Tin Of 275 G",
+        "Old_Price": "MRP 1600.00",
+        "New_Price": "1120.15",
+        "Discount": "30% OFF",
+        "State_id": 2,
+         "flavor_type":[
+            {
+               "flavor_id":3,
+               "flavor_name":"CHOCOLATE",
+               "flavor_cost": "₹1700.00"
+            },
+            {
+               "flavor_id":2,
+               "flavor_name":"VANILLA BUTTERSCOTCH",
+               "flavor_cost": "₹1800.00"
+            }
+         ],
+         "package_size":[
+            {
+            "p_id":7,
+            "package_size":"200 G",
+            "package_cost":"₹1000.00"
+
+            },
+            {
+            "p_id":7,
+            "package_size":"275 G",
+            "package_cost":"₹900.00"
+
+            }
+         ],
+        "Product_image": [
+           "https://i.ibb.co/X7T3PzR/health5.png",
+           "https://i.ibb.co/FYKL7ms/ab1.png",
+           "https://i.ibb.co/S30pNF5/ab2.png",
+           "https://i.ibb.co/S30pNF5/ab2.png"
+        ]
+     },
+    {
+        "Product_id":16,
+        "Product_Name":"Becozym C Forte ( Vitamin B Complex + Biotin + Vitamin C )- Strip Of 15 Tablets",
+        "Old_Price": "MRP ₹25.00",
+        "New_Price": "₹22.25",
+        "Discount": "12% OFF",
+        "State_id": 3,
+        "Product_image": [
+           "https://i.ibb.co/wRhjkBd/health7.png",
+           "https://i.ibb.co/Wy7W50r/ab3.png",
+           "https://i.ibb.co/6gvrmMj/ab4.png",
+           "https://i.ibb.co/gSR7Pkq/ab5.png"
+        ]
+     },
+     {
+        "Product_id":17,
+        "Product_Name":"Pigeon Manual Breast Pump - Basic Edition",
+        "Old_Price": "MRP ₹998.00",
+        "New_Price": "₹788.00",
+        "Discount": "21% OFF",
+        "State_id": 3,
+        "Product_image": [
+           "https://i.ibb.co/2MGLsGf/health8.png",
+           "https://i.ibb.co/H2T51n0/ab6.png",
+           "https://i.ibb.co/C5xQVVN/ab7.png",
+           "https://i.ibb.co/gPT7RNc/ab8.png"
+        ]
+     },
+     {
+        "Product_id":18,
+        "Product_Name":"Everyuth Naturals Body Lotion Rejuvenating Flora 100ml",
+        "Old_Price": "MRP ₹125.00",
+        "New_Price": "₹106.00",
+        "Discount": "15% OFF",
+        "State_id": 3,
+        "Product_image": [
+           "https://i.ibb.co/QrP465b/health9.png",
+           "https://i.ibb.co/fSmX3VH/ab9.png",
+           "https://i.ibb.co/mFxRxQp/abb1.png",
+           "https://i.ibb.co/42kTLLT/abb2.png"
+        ]
+     },
+     {
+        "Product_id":19,
+        "Product_Name":"Pigeon Manual Breast Pump - Basic Edition",
+        "Old_Price": "MRP ₹998.00",
+        "New_Price": "₹788..50",
+        "Discount": "21% OFF",
+        "State_id": 3,
+        "Product_image": [
+           "https://i.ibb.co/2MGLsGf/health8.png",
+           "https://i.ibb.co/H2T51n0/ab6.png",
+           "https://i.ibb.co/C5xQVVN/ab7.png",
+           "https://i.ibb.co/gPT7RNc/ab8.png"
+        ]
+     },
+     {
+        "Product_id":20,
+        "Product_Name":"V Wash Plus Intimate Wash Bottle Of 100 Ml",
+        "Old_Price": "MRP ₹180.00",
+        "New_Price": "₹138..50",
+        "Discount": "23% OFF",
+        "State_id": 3,
+        "Product_image": [
+           "https://i.ibb.co/Sm75cQP/health10.png",
+           "https://i.ibb.co/Sm75cQP/health10.png",
+           "https://i.ibb.co/Sm75cQP/health10.png",
+           "https://i.ibb.co/Sm75cQP/health10.png"
+        ]
+
+     },
+     {
+        "Product_id":21,
+        "Product_Name":"Stayfree Drymax Ultra All Nights Size Xl Sanitary Pads Packet Of 28",
+        "Old_Price": "MRP ₹350.00",
+        "New_Price": "₹308.30",
+        "Discount": "12% OFF",
+        "State_id": 3,
+        "Variants":[
+         {
+         "variant_id1":4,
+         "variant_name": "ALL NIGHT",
+         "variant_cost":"₹280.00"
+         },
+         {
+         "variant_id1":5,
+         "variant_name": "ULTRA-COMFORT",
+         "variant_cost":"₹391.00"
+          }
+      ],
+        "Product_image": [
+           "https://i.ibb.co/Sft75SC/health11.png",
+           "https://i.ibb.co/3S266nS/aaaa2.png",
+           "https://i.ibb.co/sW0kqT7/aaaa3.png",
+           "https://i.ibb.co/JtSyzqg/aaaa4.png"
+        ]
+     },
+     {
+        "Product_id":22,
+        "Product_Name":"Luciara Cream Safe-guard Against Stretch Marks - 50 G",
+        "Old_Price": "MRP ₹595.00",
+        "New_Price": "₹571.00",
+        "Discount": "4% OFF",
+        "State_id": 3,
+        "Product_image": [
+           "https://i.ibb.co/Sft75SC/health11.png",
+           "https://i.ibb.co/HYTRXnC/aaaa5.png",
+           "https://i.ibb.co/cc4r2KD/aaaa6.png",
+           "https://i.ibb.co/gjcgYdS/aaaa7.png"
+        ]
+     },
+     {
+      "Product_id":23,
+      "Product_Name":"Liveasy Ortho Care Cock-up Wrist Splint Universal",
+      "Old_Price": "MRP ₹450.00",
+      "New_Price": "₹399.25",
+      "Discount": "10% OFF",
+      "State_id": 4,
+      "Product_image": [
+         "https://i.ibb.co/SySstDH/ayur1.png",
+         "https://i.ibb.co/0cKh4KR/aaaa8.png",
+         "https://i.ibb.co/6Pz0xz0/aaaa9.png"
+      ]
+   },
+   {
+      "Product_id":24,
+      "Product_Name":"Gas O Fast Active Jeera Antacid Sachet Of 5 G",
+      "Old_Price": "MRP ₹10.5",
+      "New_Price": "₹7.7",
+      "Discount": "3% OFF",
+      "State_id": 4,
+      "Product_image": "https://i.ibb.co/zJFkXD2/ayur2.png"   
+   },
+   {
+      "Product_id":25,
+      "Product_Name":"Everherb Aloe Vera Juice With Pulp - Rejuvenates Skin & Hair - 1 Litre Bottle",
+      "Old_Price": "MRP ₹399.00",
+      "New_Price": "₹199.5 ",
+      "Discount": "50% OFF",
+      "State_id": 4,
+      "Product_image": [
+         "https://i.ibb.co/JWTyHJR/ayur3.png",
+         "https://i.ibb.co/vZ7G6yP/aaaa11.png",
+         "https://i.ibb.co/gZrP347/aaaa12.png"
+      ]
+   },
+   {
+      "Product_id":26,
+      "Product_image": "https://i.ibb.co/GdTbGdM/ayur4.png",
+      "Product_Name":"Dr Ortho An Ayurvedic Medicine Oil Bottle Of 120 Ml",
+      "Old_Price": "MRP ₹295.00",
+      "New_Price": "₹236.00",
+      "Discount": "20% OFF",
+      "State_id": 4
+   },
+     {
+        "Product_id":27,
+        "Product_image": "https://i.ibb.co/Z1HFkMc/baby1-copy.png",
+        "Product_Name":"Pigeon Breast Pads Comfy Feel - 60 Pcs",
+        "Old_Price": "MRP ₹675.00",
+        "New_Price": "₹499.5",
+        "Discount": "26% OFF",
+        "State_id": 5
+     },
+     {
+        "Product_id":28,
+        "Product_image": "https://i.ibb.co/zmwHfz8/baby2.png",
+        "Product_Name":"Pigeon Manual Breast Pump - Basic Edition",
+        "Old_Price": "MRP ₹998.00",
+        "New_Price": "₹788.42",
+        "Discount": "21% OFF",
+        "State_id": 5
+     },
+     {
+        "Product_id":29,
+        "Product_image": "https://i.ibb.co/DVDdcFN/baby3.png",
+        "Product_Name":"Prega News Pregnancy Test Kit",
+        "Old_Price": "MRP ₹55.00",
+        "New_Price": "₹33.00",
+        "Discount": "40% OFF",
+        "State_id": 5
+     },
+     {
+        "Product_id":30,
+        "Product_image": "https://i.ibb.co/JmX59DP/baby4.png",
+        "Product_Name":"Horlicks Junior Health & Nutrition Drink Vanilla, 500 G Jar",
+        "Old_Price": "MRP ₹299.00",
+        "New_Price": "₹293.02",
+        "Discount": "2% OFF",
+        "State_id": 5
+     }
+]

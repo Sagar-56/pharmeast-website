@@ -30,8 +30,6 @@ class Health extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* </div> */}
-                    {/* <HealthDisplay HealthData={this.state.HealthName}/> */}
                 </div>
             </>
         )

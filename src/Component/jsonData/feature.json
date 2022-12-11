@@ -1,0 +1,81 @@
+[
+    {
+        "feature_id": 1,
+        "state_id": 1,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/f7a36c06aed-web_Dettol.jpg"
+    },
+    {
+        "feature_id": 2,
+        "state_id": 2,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/fd17e547883-Horlicks_web.jpg"
+    },
+    {
+        "feature_id": 3,
+        "state_id": 3,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/a2ec4d896ba-Web_Featured-Vicks.jpg"
+    },
+    {
+        "feature_id": 4,
+        "state_id": 4,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/c572570b5ce-Liveasy.jpg"
+    },
+    {
+        "feature_id": 5,
+        "state_id": 5,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/487644e2f83-Nivea_web.jpg"
+    },
+    {
+        "feature_id": 6,
+        "state_id": 6,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/6964d91010f-Sensodyne.jpg?dim=146x0&dpr=1.75&q=100"
+    },
+    {
+        "feature_id": 7,
+        "state_id": 7,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/fffbe044dc3-web_Baidynath.jpg"
+    },
+    {
+        "feature_id": 8,
+        "state_id": 8,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/ac01791d842-Featured-banner_Volini.png"
+    },
+    {
+        "feature_id": 9,
+        "state_id": 9,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/0845572266f-Everherb.jpg"
+    },{
+        "feature_id": 10,
+        "state_id": 10,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/487644e2f83-Nivea_web.jpg"
+    },
+    {
+        "feature_id": 11,
+        "state_id": 11,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/1f27723d1f3-Glucon-D.jpg"
+    },
+    {
+        "feature_id": 12,
+        "state_id": 12,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/9d406684215-Featured-brand_web_Plum.jpg"
+    },
+    {
+        "feature_id": 13,
+        "state_id": 13,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/22a1550e9b6-DrVaidya_Dweb.jpg"
+    },
+    {
+        "feature_id": 14,
+        "state_id": 14,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/10bd64d3c0f-web_harpic.jpg"
+    },
+    {
+        "feature_id": 15,
+        "state_id": 15,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/7fdd90400a1-Featured-banner-Hansaplast-web.png"
+    },
+    {
+        "feature_id": 16,
+        "state_id": 16,
+        "feature_image": "https://cms-contents.pharmeasy.in/carousel_item/9f6319af182-Featured-web_Dabur.jpg"
+    }
+]
