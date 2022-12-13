@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 // import './HeaderDisplay.css';
 import Login from "./Login";
 
@@ -57,7 +57,11 @@ const HeaderDisplay = (props) => {
             setIsValidation(false)
         }
 
+        window.location.reload();
+
+
     }
+
 
     useEffect(() => {
         if (localStorage.getItem("register")) {
@@ -127,6 +131,44 @@ const HeaderDisplay = (props) => {
 
     }
 
+    useEffect((e) => {
+        if (isPassword2 !== e) {
+            const id = setTimeout(() => {
+                setIsPassword2(e);
+            }, 2000);
+
+            return () => {
+                clearTimeout(id);
+            }
+        }
+    }, [isPassword2])
+
+    useEffect((e) => {
+        if (isValidation !== e) {
+            const id = setTimeout(() => {
+                setIsValidation(e);
+            }, 2000);
+
+            return () => {
+                clearTimeout(id);
+            }
+        }
+    }, [isValidation])
+
+    // let auths = JSON.parse(localStorage.getItem('register'))
+    // const handleSkip = (e) => {
+    //     e.preventDefault()
+    //     // localStorage.clear();
+    //     // history.push('/');
+    //     localStorage.setItem("register")
+    //     console.log("path", e)
+    //     // window.location.href="/"
+    //     // console.log("path:", window.location.href="/")
+
+    // }
+
+
+
     const styles = {
         active: {
             background: "#a31490",
@@ -143,8 +185,11 @@ const HeaderDisplay = (props) => {
         <Fragment>
 
             <div className="signIn___login">
+                <div className="skip"><h5><Link to={`/`}>After successfully Registration it will redirect to Homepage automatically.</Link></h5></div>
                 <div className="signIn___login_2nd">
-                    {/* <div className="signIn___alert">{auth? "success" : "false"}</div> */}
+                    {!isValidation ?
+                        "" : (<div className="signIn___alert">{!auth ? "Registration failed" : "Registration Successful"}</div>)
+                    }
 
                     <div className="signIn___form">
                         <div className="signIn___form___2nd">
@@ -175,7 +220,7 @@ const HeaderDisplay = (props) => {
                                         <input type='text' value={password2} placeholder="Conform Password" onChange={handleConformPassword} />
                                         <span style={{ color: '#ff0000', display: 'flex', justifyContent: 'start', marginLeft: '-95px' }}>{isPassword2 ? (<span style={{ color: 'green', display: 'flex', justifyContent: 'start', marginLeft: '-57px' }}>Verify Success</span>) : password === password2 ? " " : "Your Password not matched"}</span>
 
-                                        <button type="submit" className={!isValidation? styles.hidden: styles.active} onClick={handleSubmit}>submit</button>
+                                        <button type="submit" className={!isValidation ? styles.hidden : styles.active} onClick={handleSubmit}>submit</button>
                                         <span style={{ color: '#ff0000', display: 'flex', justifyContent: 'start', marginLeft: '-146px' }}>
                                             {!isValidation ?
                                                 // (<span style={{ color: '#7cb444', display: 'flex', justifyContent: 'center', alignItems: 'center', marginLeft: '-37px' }}><img src="https://i.ibb.co/VTMM3P0/Spinner-5.gif" width='30px' height='30px' alt="Spinner-5" border="0" /> Wait a while...</span>)

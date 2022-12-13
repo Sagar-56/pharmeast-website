@@ -20,7 +20,7 @@ const Cart = (props) => {
             <div className='cart-data' key={index}>
               <div className='cart_img_deals'>
                 <img src={item.image} alt={item.name}
-                  className="img-thumbnail" />
+                  className="img" />
               </div>
               <div className="cart_img_content">
                 <div className="deals2_head">
@@ -79,5 +79,3 @@ const mapDispatchToProps = (dispatch) => ({
   Decrement: (data) => dispatch(Decrement(data))
 })
 export default connect(mapStateToProps, mapDispatchToProps)(Cart)
-
-// export default cart;

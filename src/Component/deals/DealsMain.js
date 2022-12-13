@@ -36,12 +36,12 @@ class DealsMain extends Component {
     }
 
     componentDidMount = async () => {
-    let stateId = await this.props.match.params.id ? this.props.match.params.id : 1
-    sessionStorage.setItem('stateId', stateId)
-    axios.get(`${DealsUrl}${stateId}`)
-    .then((res) => {
-    this.setState({ DealsName: res.data })
-    })  
+        let stateId = await this.props.match.params.id ? this.props.match.params.id : 1
+        sessionStorage.setItem('stateId', stateId)
+        axios.get(`${DealsUrl}${stateId}`)
+            .then((res) => {
+                this.setState({ DealsName: res.data })
+            })
     }
 
 

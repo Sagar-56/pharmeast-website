@@ -11,7 +11,7 @@ import { ActionTypes } from '../constants/ActionTypes'
 const cardItems = (state = { cardData: JSON.parse(localStorage.getItem("cartData") || "[]") },action) => {
     switch (action.type) {
         case ActionTypes.ADD_TO_CARD:
-            console.warn("reducer", ...state.cardData)
+            // console.warn("reducer", state.cardData)
             return {
                 // ...state,
                 cardData: action.payload.cardData

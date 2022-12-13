@@ -39,9 +39,9 @@ export const Increment=(data)=>(dispatch, getState)=>{
     const selectedProduct= cardData.find((item)=> item.id===data.id)
     const index = cardData.indexOf(selectedProduct);
     const value=cardData[index];
-    console.warn("value", value)
+    // console.warn("value", value)
     value.qty =value.qty+=1;
-    console.warn("value.qty", value.qty)
+    // console.warn("value.qty", value.qty)
     
     // let alreadyExist=false
 
@@ -53,7 +53,7 @@ export const Increment=(data)=>(dispatch, getState)=>{
 
     value.total=value.qty*value.price;
     value.total.toFixed(2)
-    console.warn("value.total", value.total.toFixed(2))
+    // console.warn("value.total", value.total.toFixed(2))
 
     dispatch({
         type: ActionTypes.INCREMENT,

@@ -13,6 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 import BarChartIcon from '@mui/icons-material/BarChart';
 
 const Header = (props) => {
+    // console.warn("addtocarts: ", props.data.cardData)
     const [isNav, setIsNav] = useState(false)
     const [isClosing, setIsClosing] = useState(false)
 
@@ -52,7 +53,7 @@ const Header = (props) => {
     const logOut = () => {
         localStorage.clear();
         history.push('/register');
-
+        window.location.reload()
     }
 
     return (
@@ -78,6 +79,7 @@ const Header = (props) => {
                                     aria-haspopup="true"
                                     aria-expanded={open ? 'true' : undefined}
                                     onClick={handleClick}
+                                    style={{ fontVariant: 'small-caps' }}
                                 ><Link to={``} target='_parent'><img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="Offers.img" style={{ color: 'red' }} />{auth ? `${auth.user.firstname}` : 'SignUp/SignIn'}</Link></li>
                                 <Menu
                                     id="basic-menu"

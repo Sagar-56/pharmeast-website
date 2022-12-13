@@ -1,31 +1,44 @@
 // @ts-nocheck
 import React, { useEffect, useState } from "react";
 import DoneAllIcon from '@mui/icons-material/DoneAll';
+import { useSelector } from "react-redux";
 
 
 const DealDisplay = (props) => {
-    // console.warn("myproduct", props.products)
 
-const [isCartSuccess, setIsCartSuccess] = useState(false)
+    // console.warn("my___Products", props)
+    const counter = useSelector((state) => state.cardItems.cardData);
+    // console.warn("counter/ ", counter)
+
+    const [isCartSuccess, setIsCartSuccess] = useState(false)
+    const [isCartSuccesses, setIsCartSuccesses] = useState(false)
 
 
-// const addCart = (e) => {
-    // console.log("cashback", e)
-// 
-// }
-// useEffect((e) => {
-//     if (isCartSuccess !== e) {
-//         const id = setTimeout(() => {
-//             console.log("Running Interval");
-//             setIsCartSuccess(e);
-//         }, 2000);
+    useEffect((e) => {
+        if (isCartSuccess !== e) {
+            const id = setTimeout(() => {
+                setIsCartSuccess(e);
+            }, 2000);
 
-//         return () => {
-//             console.log("Clearing Interval");
-//             clearTimeout(id);
-//         }
-//     }
-// }, [isCartSuccess])
+            return () => {
+                clearTimeout(id);
+            }
+        }
+    }, [isCartSuccess])
+
+
+    useEffect((e) => {
+        if (isCartSuccesses !== e) {
+            const id = setTimeout(() => {
+                setIsCartSuccesses(e);
+            }, 2000);
+
+            return () => {
+                clearTimeout(id);
+            }
+        }
+    }, [isCartSuccesses])
+
 
     const renderData = ({ DealsData }) => {
         if (DealsData) {
@@ -51,17 +64,33 @@ const [isCartSuccess, setIsCartSuccess] = useState(false)
                                     <span className='h3'>{item.Deals_discount}</span>
                                 </div>
                                 <div className="byn">
-                                    <button type="submit" className="btn btn-success"
-                                        onClick={(e) =>
-                                            props.products.addToCardHandler({
-                                                id: item._id,
-                                                qty: item.qty,
-                                                image: item.Deals_image,
-                                                price: item.Deals_NewMrp,
-                                                name: item.Deals_tag,
-                                                disc: item.Deals_discount
-                                            })
+                                    <button type="submit" className="btn btn-success" onClick={(e) => {
+                                        props.products.addToCardHandler({
+                                            id: item._id,
+                                            qty: item.qty,
+                                            image: item.Deals_image,
+                                            price: item.Deals_NewMrp,
+                                            name: item.Deals_tag,
+                                            disc: item.Deals_discount
+                                        })
+
+
+                                        if (counter.length) {
+                                            setIsCartSuccess(true)
                                         }
+
+
+                                        counter.forEach((x) => {
+                                            if (x.id === item._id) {
+                                                // alreadyExists = true;
+                                                setIsCartSuccesses(true)
+                                                console.warn("x", x.id)
+
+                                            }
+                                            return x
+                                        });
+                                    }
+                                    }
 
                                     >Add to Card</button>
                                 </div>
@@ -93,11 +122,20 @@ const [isCartSuccess, setIsCartSuccess] = useState(false)
     return (
         <>
             <div className="dealsDetails">
-                {/* <div className="success___msg">
-                    {
-                        !isCartSuccess ? "" : (<div className='success' style={{ color: '#000' }}><DoneAllIcon />&emsp;coupon copied</div>)
-                    }
-                </div> */}
+                {isCartSuccesses ?
+                    <div className="success___msg">
+                     { 
+                        !isCartSuccess ? "" :
+                        (<div className='error' style={{ color: '#fff', fontVariant: 'caps', fontSize: '18px', zIndex: '100' }}>&emsp;Item alreadyExist in Cart</div>)
+                        }
+                    </div>
+                    :
+                    <div className="success___msg">
+                        {
+                            !isCartSuccess ? "" : (<div className='success' style={{ color: '#fff', fontVariant: 'caps', fontSize: '18px', zIndex: '100' }}><DoneAllIcon />&emsp;Item added to Cart</div>)
+                        }
+                    </div>
+                }
                 {renderData(props)}
             </div>
         </>

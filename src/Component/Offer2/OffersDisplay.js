@@ -31,12 +31,12 @@ const OffersDisplay = (props) => {
     useEffect((e) => {
         if (isCopySuccess !== e) {
             const id = setTimeout(() => {
-                console.log("Running Interval");
+                // console.log("Running Interval");
                 setIsCopySuccess(e);
             }, 2000);
 
             return () => {
-                console.log("Clearing Interval");
+                // console.log("Clearing Interval");
                 clearTimeout(id);
             }
         }
